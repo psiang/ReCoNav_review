@@ -1,0 +1,305 @@
+{
+  "task_id": "00829_T6_0002",
+  "scene_id": "00829-QaLdnwvtxbs",
+  "family": "T6_composite",
+  "instruction": "Go to the ottoman with a sofa nearby. Throughout the entire trip from your starting position until you reach the ottoman, preferably avoid the portal between the bedroom and the living room. Also, preferably enter at least one area after leaving your starting position and before reaching the ottoman.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 2,
+    "level": 0,
+    "floor_height": 0.0025146666060512266,
+    "x": 4.780742315862458,
+    "y": -2.217003425692028,
+    "component": 0
+  },
+  "start_heading": 1.9747672272284413,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "ottoman",
+      "selected_id": 21,
+      "base_candidate_ids": [
+        21,
+        86,
+        190,
+        191
+      ],
+      "confusion_labels": [
+        "ottoman"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              28,
+              185
+            ],
+            "head": "sofa",
+            "quantifier": "exists",
+            "phrase": "at least one sofa",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            21,
+            190,
+            191
+          ],
+          "relation_witnesses": {
+            "21": [
+              28
+            ],
+            "190": [
+              185
+            ],
+            "191": [
+              185
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "prefer_avoid",
+        "entity_kind": "portal",
+        "entity_ids": [
+          3
+        ],
+        "phrase": "the portal between the bedroom and the living room",
+        "target_type": "portal",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        }
+      },
+      {
+        "kind": "prefer_count",
+        "entity_kind": "region",
+        "entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "phrase": "areas",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "op": "at_least",
+        "count": 1
+      }
+    ]
+  },
+  "grounded_dsl": "START POS 4.78074232 0.0025 -2.21700343\nGOAL OBJ 21\nPREFER AVOID PORTAL 3 AFTER START UNTIL GOAL\nPREFER COUNT REGION 0 1 2 3 4 5 6 AT LEAST 1 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "soft_preference",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      21,
+      190,
+      191
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        4.78074232,
+        -0.0018696667393669486,
+        -2.21700343
+      ],
+      [
+        4.87555637,
+        -0.0018696667393669486,
+        -2.44050794
+      ],
+      [
+        4.85555637,
+        -0.0075799998206396895,
+        -2.62852208
+      ],
+      [
+        4.85555637,
+        -0.0075799998206396895,
+        -2.64
+      ],
+      [
+        4.85555637,
+        -0.0075799998206396895,
+        -2.62852208
+      ],
+      [
+        4.87555637,
+        -0.0018696667393669486,
+        -2.44050794
+      ],
+      [
+        4.87555637,
+        -0.0018696667393669486,
+        -2.44
+      ],
+      [
+        4.87682973,
+        -0.0018696667393669486,
+        -2.41407999
+      ],
+      [
+        4.88063758,
+        -0.0018696667393669486,
+        -2.38840961
+      ],
+      [
+        4.88694322,
+        -0.0018696667393669486,
+        -2.36323606
+      ],
+      [
+        4.89568594,
+        -0.0018696667393669486,
+        -2.3388018
+      ],
+      [
+        4.90678154,
+        -0.0018696667393669486,
+        -2.31534213
+      ],
+      [
+        4.92012315,
+        -0.0018696667393669486,
+        -2.29308299
+      ],
+      [
+        4.93558231,
+        -0.0018696667393669486,
+        -2.27223873
+      ],
+      [
+        4.95301011,
+        -0.0018696667393669486,
+        -2.25301011
+      ],
+      [
+        4.97301011,
+        -0.0018696667393669486,
+        -2.23301011
+      ],
+      [
+        4.99223873,
+        -0.0018696667393669486,
+        -2.21558231
+      ],
+      [
+        5.01308299,
+        -0.0018696667393669486,
+        -2.20012315
+      ],
+      [
+        5.03534213,
+        -0.0018696667393669486,
+        -2.18678154
+      ],
+      [
+        5.0588018,
+        -0.0018696667393669486,
+        -2.17568594
+      ],
+      [
+        5.08323606,
+        -0.0018696667393669486,
+        -2.16694322
+      ],
+      [
+        5.03407999,
+        -0.0018696667393669486,
+        -1.08317027
+      ],
+      [
+        5.00840961,
+        -0.0018696667393669486,
+        -1.07936242
+      ],
+      [
+        4.88954856,
+        -0.0018696667393669486,
+        -1.06444363
+      ]
+    ],
+    "traversed_region_ids": [
+      2,
+      2,
+      3,
+      3,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "portal_ids": [
+      4,
+      4
+    ],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 2,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 21,
+        "waypoint_index": 23,
+        "event_seq": 1
+      }
+    ]
+  }
+}

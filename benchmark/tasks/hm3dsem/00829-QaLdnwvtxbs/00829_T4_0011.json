@@ -1,0 +1,202 @@
+{
+  "task_id": "00829_T4_0011",
+  "scene_id": "00829-QaLdnwvtxbs",
+  "family": "T4_count",
+  "instruction": "Go to the tap with cosmetics nearby, passing through exactly one portal.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 6,
+    "level": 0,
+    "floor_height": -0.004350333222343276,
+    "x": -6.07745240928016,
+    "y": -3.3950686362348836,
+    "component": 0
+  },
+  "start_heading": 5.179168086421323,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "tap",
+      "selected_id": 244,
+      "base_candidate_ids": [
+        111,
+        112,
+        205,
+        244
+      ],
+      "confusion_labels": [
+        "tap"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              114,
+              246
+            ],
+            "head": "cosmetics",
+            "quantifier": "exists",
+            "phrase": "at least one cosmetics",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            111,
+            112,
+            244
+          ],
+          "relation_witnesses": {
+            "112": [
+              114
+            ],
+            "244": [
+              246
+            ],
+            "111": [
+              114
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "count",
+        "entity_kind": "portal",
+        "entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "phrase": "portals",
+        "target_type": "portal",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "op": "exactly",
+        "count": 1
+      }
+    ]
+  },
+  "grounded_dsl": "START POS -6.07745241 -0.0044 -3.39506864\nGOAL OBJ 244\nCOUNT PORTAL 0 1 2 3 4 5 EXACTLY 1 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      111,
+      112,
+      244
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        -6.07745241,
+        -0.004350333222343276,
+        -3.39506864
+      ],
+      [
+        -4.62673348,
+        -0.004350333222343276,
+        -3.2097641
+      ],
+      [
+        -4.23050196,
+        0.002610666754965981,
+        -3.06444363
+      ],
+      [
+        -4.22,
+        0.002610666754965981,
+        -3.06444363
+      ],
+      [
+        -4.19407999,
+        0.002610666754965981,
+        -3.06317027
+      ],
+      [
+        -4.16840961,
+        0.002610666754965981,
+        -3.05936242
+      ],
+      [
+        -4.14323606,
+        0.002610666754965981,
+        -3.05305678
+      ],
+      [
+        -4.1188018,
+        0.002610666754965981,
+        -3.04431406
+      ],
+      [
+        -3.51159039,
+        0.002610666754965981,
+        -3.11936242
+      ],
+      [
+        -3.48592001,
+        0.002610666754965981,
+        -3.12317027
+      ],
+      [
+        -3.46,
+        0.002610666754965981,
+        -3.12444363
+      ]
+    ],
+    "traversed_region_ids": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "portal_ids": [
+      0
+    ],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 6,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 244,
+        "waypoint_index": 10,
+        "event_seq": 1
+      }
+    ]
+  }
+}

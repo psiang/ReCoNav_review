@@ -1,0 +1,187 @@
+{
+  "task_id": "00873_T6_0005",
+  "scene_id": "00873-bxsVRursffK",
+  "family": "T6_composite",
+  "instruction": "Go to a box with a cabinet nearby. Throughout the trip, avoid the stairs. Also, preferably avoid the door between the hallway and the laundry room/mudroom.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 4,
+    "level": 1,
+    "floor_height": -0.3169266680876414,
+    "x": -6.899071106859651,
+    "y": -1.4863357731571827,
+    "component": 1
+  },
+  "start_heading": 0.7278655902974699,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "box",
+      "selected_id": 257,
+      "base_candidate_ids": [
+        134,
+        196,
+        197,
+        257,
+        332,
+        378
+      ],
+      "confusion_labels": [
+        "box"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              45,
+              46,
+              47,
+              71,
+              182,
+              226,
+              252,
+              256,
+              343,
+              344,
+              366,
+              367,
+              368,
+              369,
+              370,
+              371,
+              391,
+              392,
+              393,
+              394,
+              395,
+              396
+            ],
+            "head": "cabinet",
+            "quantifier": "exists",
+            "phrase": "at least one cabinet",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            257,
+            332,
+            378
+          ],
+          "relation_witnesses": {
+            "257": [
+              256
+            ],
+            "378": [
+              366,
+              367,
+              391,
+              392,
+              393,
+              394
+            ],
+            "332": [
+              343
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "avoid",
+        "entity_kind": "portal",
+        "entity_ids": [
+          11
+        ],
+        "phrase": "the stairs",
+        "target_type": "stair",
+        "qualifiers": [],
+        "base_entity_ids": [
+          11
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        }
+      },
+      {
+        "kind": "prefer_avoid",
+        "entity_kind": "portal",
+        "entity_ids": [
+          8
+        ],
+        "phrase": "the door between the hallway and the laundryroom/mudroom",
+        "target_type": "door",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        }
+      }
+    ]
+  },
+  "grounded_dsl": "START POS -6.89907111 -0.3169 -1.48633577\nGOAL OBJ 257\nAVOID PORTAL 11 AFTER START UNTIL GOAL\nPREFER AVOID PORTAL 8 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      257,
+      332,
+      378
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        -6.89907111,
+        0.010833333246409893,
+        -1.48633577
+      ],
+      [
+        -8.88,
+        0.010833333246409893,
+        -1.81555637
+      ]
+    ],
+    "traversed_region_ids": [
+      4,
+      4
+    ],
+    "portal_ids": [],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 4,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 257,
+        "waypoint_index": 1,
+        "event_seq": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+# Recorded compatibility overlay; install into the matching native environment.
+-r worker-geometry.lock
+numpy==1.26.4
+opencv-python-headless==4.11.0.86
+networkx==3.2.1
+matplotlib==3.7.3
+joblib==1.5.2
+pqdict==1.4.1
+scikit-learn==1.6.1
+threadpoolctl==3.6.0
+sympy==1.13.1

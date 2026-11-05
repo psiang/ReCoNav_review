@@ -1,0 +1,276 @@
+{
+  "task_id": "00824_T4_0006",
+  "scene_id": "00824-Dd4bFSTQ8gi",
+  "family": "T4_count",
+  "instruction": "From the start until you reach the goal, enter exactly one room and go to the flower vase with a chair nearby.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 2,
+    "level": 0,
+    "floor_height": 0.009821000043302774,
+    "x": 6.403609883405069,
+    "y": 5.423061801830055,
+    "component": 0
+  },
+  "start_heading": 6.087371185774439,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "flower vase",
+      "selected_id": 96,
+      "base_candidate_ids": [
+        20,
+        21,
+        22,
+        96,
+        203,
+        209
+      ],
+      "confusion_labels": [
+        "flower vase"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              10,
+              11,
+              97,
+              98,
+              99,
+              100,
+              101,
+              102,
+              133,
+              134,
+              136,
+              176,
+              177
+            ],
+            "head": "chair",
+            "quantifier": "exists",
+            "phrase": "at least one chair",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            22,
+            96,
+            203
+          ],
+          "relation_witnesses": {
+            "96": [
+              97,
+              98,
+              99,
+              100,
+              101,
+              102
+            ],
+            "203": [
+              176,
+              177
+            ],
+            "22": [
+              10,
+              11
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "count",
+        "entity_kind": "region",
+        "entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "phrase": "rooms",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          9,
+          10,
+          11,
+          12
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "op": "exactly",
+        "count": 1
+      }
+    ]
+  },
+  "grounded_dsl": "START POS 6.40360988 0.0098 5.42306180\nGOAL OBJ 96\nCOUNT REGION 0 1 2 3 4 5 6 7 9 10 11 12 EXACTLY 1 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      22,
+      96,
+      203
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        6.40360988,
+        0.0062969999853521585,
+        5.4230618
+      ],
+      [
+        6.61708667,
+        0.0062969999853521585,
+        4.175633
+      ],
+      [
+        6.77892961,
+        -0.005492666736245155,
+        3.55992381
+      ],
+      [
+        6.78063758,
+        -0.005492666736245155,
+        3.54840961
+      ],
+      [
+        6.78694322,
+        -0.005492666736245155,
+        3.52323606
+      ],
+      [
+        6.79568594,
+        -0.005492666736245155,
+        3.4988018
+      ],
+      [
+        6.80678154,
+        -0.005492666736245155,
+        3.47534213
+      ],
+      [
+        6.82012315,
+        -0.005492666736245155,
+        3.45308299
+      ],
+      [
+        6.83558231,
+        -0.005492666736245155,
+        3.43223873
+      ],
+      [
+        6.85301011,
+        -0.005492666736245155,
+        3.41301011
+      ],
+      [
+        6.89301011,
+        -0.005492666736245155,
+        3.37301011
+      ],
+      [
+        6.91223873,
+        -0.005492666736245155,
+        3.35558231
+      ],
+      [
+        6.93308299,
+        -0.005492666736245155,
+        3.34012315
+      ],
+      [
+        6.95534213,
+        -0.005492666736245155,
+        3.32678154
+      ],
+      [
+        7.11558231,
+        -0.005492666736245155,
+        2.30776127
+      ],
+      [
+        7.10012315,
+        -0.005492666736245155,
+        2.28691701
+      ],
+      [
+        7.08678154,
+        -0.005492666736245155,
+        2.26465787
+      ],
+      [
+        7.01323849,
+        -0.005492666736245155,
+        2.14354996
+      ]
+    ],
+    "traversed_region_ids": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "portal_ids": [
+      9
+    ],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 2,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 96,
+        "waypoint_index": 17,
+        "event_seq": 1
+      }
+    ]
+  }
+}

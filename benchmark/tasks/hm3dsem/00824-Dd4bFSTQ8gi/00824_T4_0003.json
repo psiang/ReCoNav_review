@@ -1,0 +1,214 @@
+{
+  "task_id": "00824_T4_0003",
+  "scene_id": "00824-Dd4bFSTQ8gi",
+  "family": "T4_count",
+  "instruction": "Go to the bedroom, entering at most one area from the start until you reach it.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 2,
+    "level": 0,
+    "floor_height": 0.009821000043302774,
+    "x": 6.902004901521051,
+    "y": 5.150027214577104,
+    "component": 0
+  },
+  "start_heading": 3.383708976717287,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "region",
+      "head": "bedroom",
+      "selected_id": 12,
+      "base_candidate_ids": [
+        7,
+        9,
+        12
+      ],
+      "confusion_labels": [
+        "bedroom"
+      ],
+      "qualifiers": []
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "count",
+        "entity_kind": "region",
+        "entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "phrase": "areas",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "op": "at_most",
+        "count": 1
+      }
+    ]
+  },
+  "grounded_dsl": "START POS 6.90200490 0.0098 5.15002721\nGOAL REGION 12\nCOUNT REGION 0 1 2 3 4 5 6 7 8 9 10 11 12 AT MOST 1 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "region"
+    },
+    "qualified_candidate_ids": [
+      7,
+      9,
+      12
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        6.9020049,
+        0.0062969999853521585,
+        5.15002721
+      ],
+      [
+        5.45979177,
+        0.0062969999853521585,
+        4.42785273
+      ],
+      [
+        5.0160477,
+        0.006083000063275297,
+        4.21048474
+      ],
+      [
+        4.96840961,
+        0.006083000063275297,
+        4.19936242
+      ],
+      [
+        4.94323606,
+        0.006083000063275297,
+        4.19305678
+      ],
+      [
+        4.9188018,
+        0.006083000063275297,
+        4.18431406
+      ],
+      [
+        4.89534213,
+        0.006083000063275297,
+        4.17321846
+      ],
+      [
+        4.87308299,
+        0.006083000063275297,
+        4.15987685
+      ],
+      [
+        4.85223873,
+        0.006083000063275297,
+        4.14441769
+      ],
+      [
+        4.83301011,
+        0.006083000063275297,
+        4.12698989
+      ],
+      [
+        4.82255621,
+        0.006083000063275297,
+        4.11653599
+      ],
+      [
+        4.81301011,
+        0.006083000063275297,
+        4.10698989
+      ],
+      [
+        4.79558231,
+        0.006083000063275297,
+        4.08776127
+      ],
+      [
+        4.78012315,
+        0.006083000063275297,
+        4.06691701
+      ],
+      [
+        4.76678154,
+        0.006083000063275297,
+        4.04465787
+      ],
+      [
+        4.53031886,
+        0.006083000063275297,
+        3.94444363
+      ]
+    ],
+    "traversed_region_ids": [
+      2,
+      2,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12,
+      12
+    ],
+    "portal_ids": [
+      8
+    ],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 2,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "region",
+        "id": 12,
+        "waypoint_index": 15,
+        "event_seq": 1
+      }
+    ]
+  }
+}

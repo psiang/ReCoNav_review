@@ -1,0 +1,61 @@
+{
+  "scene_id": "00853-5cdEh9F2hJL",
+  "topology": [
+    {
+      "region_a": 0,
+      "region_b": 1,
+      "portal_index": 0
+    },
+    {
+      "region_a": 1,
+      "region_b": 2,
+      "portal_index": 1
+    },
+    {
+      "region_a": 3,
+      "region_b": 2,
+      "portal_index": 2
+    },
+    {
+      "region_a": 4,
+      "region_b": 2,
+      "portal_index": 3
+    },
+    {
+      "region_a": 0,
+      "region_b": 5,
+      "portal_index": 4
+    },
+    {
+      "region_a": 6,
+      "region_b": 5,
+      "portal_index": 5
+    },
+    {
+      "region_a": 7,
+      "region_b": 6,
+      "portal_index": 6
+    },
+    {
+      "region_a": 9,
+      "region_b": 6,
+      "portal_index": 7
+    },
+    {
+      "region_a": 8,
+      "region_b": 6,
+      "portal_index": 8
+    },
+    {
+      "region_a": 10,
+      "region_b": 0,
+      "portal_index": 9
+    },
+    {
+      "region_a": 5,
+      "region_b": 10,
+      "portal_index": 10
+    }
+  ],
+  "annotation_sha256": "744092e53ddce813802986c2b8f911d5f02cb01f61c35cfb41abc42fc2966429"
+}

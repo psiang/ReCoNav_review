@@ -1,0 +1,36 @@
+{
+  "scene_id": "00829-QaLdnwvtxbs",
+  "topology": [
+    {
+      "region_a": 6,
+      "region_b": 5,
+      "portal_index": 0
+    },
+    {
+      "region_a": 6,
+      "region_b": 0,
+      "portal_index": 1
+    },
+    {
+      "region_a": 1,
+      "region_b": 0,
+      "portal_index": 2
+    },
+    {
+      "region_a": 2,
+      "region_b": 0,
+      "portal_index": 3
+    },
+    {
+      "region_a": 3,
+      "region_b": 2,
+      "portal_index": 4
+    },
+    {
+      "region_a": 4,
+      "region_b": 2,
+      "portal_index": 5
+    }
+  ],
+  "annotation_sha256": "e2ba9da9b8da51b5fd3c6d9fd610c8c571af9e164ddca5d6fb8cd1a20e04ee12"
+}

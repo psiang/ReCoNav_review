@@ -1,0 +1,225 @@
+{
+  "task_id": "00829_T3_0001",
+  "scene_id": "00829-QaLdnwvtxbs",
+  "family": "T3_avoid",
+  "instruction": "Go to the ottoman with a desk nearby, without going through the door between the bedroom and the living room.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 2,
+    "level": 0,
+    "floor_height": 0.0025146666060512266,
+    "x": 1.5957469435429825,
+    "y": -2.2415080106927188,
+    "component": 0
+  },
+  "start_heading": 1.0023844862965081,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "ottoman",
+      "selected_id": 21,
+      "base_candidate_ids": [
+        21,
+        86,
+        190,
+        191
+      ],
+      "confusion_labels": [
+        "ottoman"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              36,
+              179
+            ],
+            "head": "desk",
+            "quantifier": "exists",
+            "phrase": "at least one desk",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            21,
+            190,
+            191
+          ],
+          "relation_witnesses": {
+            "21": [
+              36
+            ],
+            "190": [
+              179
+            ],
+            "191": [
+              179
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "avoid",
+        "entity_kind": "portal",
+        "entity_ids": [
+          3
+        ],
+        "phrase": "the door between the bedroom and the living room",
+        "target_type": "door",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          3
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        }
+      }
+    ]
+  },
+  "grounded_dsl": "START POS 1.59574694 0.0025 -2.24150801\nGOAL OBJ 21\nAVOID PORTAL 3 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      21,
+      190,
+      191
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        1.59574694,
+        -0.0018696667393669486,
+        -2.24150801
+      ],
+      [
+        2.46776127,
+        -0.0018696667393669486,
+        -1.50441769
+      ],
+      [
+        2.48698989,
+        -0.0018696667393669486,
+        -1.48698989
+      ],
+      [
+        2.50441769,
+        -0.0018696667393669486,
+        -1.46776127
+      ],
+      [
+        2.51987685,
+        -0.0018696667393669486,
+        -1.44691701
+      ],
+      [
+        2.53321846,
+        -0.0018696667393669486,
+        -1.42465787
+      ],
+      [
+        2.55321846,
+        -0.0018696667393669486,
+        -1.38465787
+      ],
+      [
+        2.56431406,
+        -0.0018696667393669486,
+        -1.3611982
+      ],
+      [
+        2.97676394,
+        -0.0018696667393669486,
+        -0.95305678
+      ],
+      [
+        3.0011982,
+        -0.0018696667393669486,
+        -0.94431406
+      ],
+      [
+        3.02465787,
+        -0.0018696667393669486,
+        -0.93321846
+      ],
+      [
+        3.04691701,
+        -0.0018696667393669486,
+        -0.91987685
+      ],
+      [
+        3.06776127,
+        -0.0018696667393669486,
+        -0.90441769
+      ],
+      [
+        3.08698989,
+        -0.0018696667393669486,
+        -0.88698989
+      ],
+      [
+        3.10698989,
+        -0.0018696667393669486,
+        -0.86698989
+      ],
+      [
+        3.12441769,
+        -0.0018696667393669486,
+        -0.84776127
+      ],
+      [
+        3.13987685,
+        -0.0018696667393669486,
+        -0.82691701
+      ]
+    ],
+    "traversed_region_ids": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "portal_ids": [],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 2,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 21,
+        "waypoint_index": 16,
+        "event_seq": 1
+      }
+    ]
+  }
+}

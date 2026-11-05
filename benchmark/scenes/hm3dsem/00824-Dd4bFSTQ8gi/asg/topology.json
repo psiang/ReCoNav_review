@@ -1,0 +1,76 @@
+{
+  "scene_id": "00824-Dd4bFSTQ8gi",
+  "topology": [
+    {
+      "region_a": 6,
+      "region_b": 7,
+      "portal_index": 0
+    },
+    {
+      "region_a": 7,
+      "region_b": 8,
+      "portal_index": 1
+    },
+    {
+      "region_a": 5,
+      "region_b": 8,
+      "portal_index": 2
+    },
+    {
+      "region_a": 4,
+      "region_b": 8,
+      "portal_index": 3
+    },
+    {
+      "region_a": 8,
+      "region_b": 12,
+      "portal_index": 4
+    },
+    {
+      "region_a": 8,
+      "region_b": 9,
+      "portal_index": 5
+    },
+    {
+      "region_a": 9,
+      "region_b": 10,
+      "portal_index": 6
+    },
+    {
+      "region_a": 11,
+      "region_b": 12,
+      "portal_index": 7
+    },
+    {
+      "region_a": 12,
+      "region_b": 2,
+      "portal_index": 8
+    },
+    {
+      "region_a": 1,
+      "region_b": 2,
+      "portal_index": 9
+    },
+    {
+      "region_a": 3,
+      "region_b": 2,
+      "portal_index": 10
+    },
+    {
+      "region_a": 4,
+      "region_b": 1,
+      "portal_index": 11
+    },
+    {
+      "region_a": 4,
+      "region_b": 0,
+      "portal_index": 12
+    },
+    {
+      "region_a": 0,
+      "region_b": 1,
+      "portal_index": 13
+    }
+  ],
+  "annotation_sha256": "ec9bb9ff44e1dfb8053d495e206df5926e1bd8b46ef879b31799dcdb18843694"
+}

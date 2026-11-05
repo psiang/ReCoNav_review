@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "task_count": 192,
+  "scene_ids": [
+    "00824-Dd4bFSTQ8gi",
+    "00829-QaLdnwvtxbs",
+    "00843-DYehNKdT76V",
+    "00848-ziup5kvtCCR",
+    "00849-a8BtkwhxdRV",
+    "00853-5cdEh9F2hJL",
+    "00861-GLAQ4DNUx5U",
+    "00873-bxsVRursffK",
+    "00891-cvZr5TUy5C5"
+  ],
+  "scene_counts": {
+    "00824-Dd4bFSTQ8gi": 26,
+    "00829-QaLdnwvtxbs": 33,
+    "00843-DYehNKdT76V": 18,
+    "00848-ziup5kvtCCR": 30,
+    "00849-a8BtkwhxdRV": 9,
+    "00853-5cdEh9F2hJL": 10,
+    "00861-GLAQ4DNUx5U": 27,
+    "00873-bxsVRursffK": 27,
+    "00891-cvZr5TUy5C5": 12
+  },
+  "family_counts": {
+    "T1_goal": 36,
+    "T2_via": 36,
+    "T3_avoid": 21,
+    "T4_count": 38,
+    "T5_prefer": 34,
+    "T6_composite": 27
+  },
+  "benchmark_source": "HM3DSem, author-authored tasks and scene annotations",
+  "coordinate_convention": "ASG footprints use x/z horizontal; route y is vertical foot height",
+  "navigation": "Lossless precomputed physical geometry, algorithm region-portal-mesh-band-g0-v21",
+  "upstream_terms": "https://matterport.com/legal/matterport-end-user-license-agreement-academic-use-model-data",
+  "robot_profile": {
+    "radius_m": 0.25,
+    "diameter_m": 0.5,
+    "height_m": 1.5
+  }
+}

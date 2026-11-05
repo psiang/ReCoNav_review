@@ -1,0 +1,234 @@
+{
+  "task_id": "00829_T4_0024",
+  "scene_id": "00829-QaLdnwvtxbs",
+  "family": "T4_count",
+  "instruction": "Go to the tap with a washbasin counter nearby, passing through exactly one area.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 6,
+    "level": 0,
+    "floor_height": -0.004350333222343276,
+    "x": -5.5945584820650724,
+    "y": -3.8122108774968844,
+    "component": 0
+  },
+  "start_heading": 1.8566843707623848,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "tap",
+      "selected_id": 244,
+      "base_candidate_ids": [
+        111,
+        112,
+        205,
+        244
+      ],
+      "confusion_labels": [
+        "tap"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              108,
+              242
+            ],
+            "head": "washbasin counter",
+            "quantifier": "exists",
+            "phrase": "at least one washbasin counter",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            111,
+            112,
+            244
+          ],
+          "relation_witnesses": {
+            "112": [
+              108
+            ],
+            "244": [
+              242
+            ],
+            "111": [
+              108
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "count",
+        "entity_kind": "region",
+        "entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "phrase": "areas",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "op": "exactly",
+        "count": 1
+      }
+    ]
+  },
+  "grounded_dsl": "START POS -5.59455848 -0.0044 -3.81221088\nGOAL OBJ 244\nCOUNT REGION 0 1 2 3 4 5 6 EXACTLY 1 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      111,
+      112,
+      244
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        -5.59455848,
+        -0.004350333222343276,
+        -3.81221088
+      ],
+      [
+        -4.4611982,
+        -0.004350333222343276,
+        -3.39568594
+      ],
+      [
+        -4.43676394,
+        -0.004350333222343276,
+        -3.38694322
+      ],
+      [
+        -4.41159039,
+        -0.004350333222343276,
+        -3.38063758
+      ],
+      [
+        -4.4101616,
+        -0.004350333222343276,
+        -3.38042563
+      ],
+      [
+        -4.2329847,
+        0.002610666754965981,
+        -3.35590101
+      ],
+      [
+        -4.21407999,
+        0.002610666754965981,
+        -3.35682973
+      ],
+      [
+        -4.18840961,
+        0.002610666754965981,
+        -3.36063758
+      ],
+      [
+        -4.16323606,
+        0.002610666754965981,
+        -3.36694322
+      ],
+      [
+        -4.1388018,
+        0.002610666754965981,
+        -3.37568594
+      ],
+      [
+        -4.11534213,
+        0.002610666754965981,
+        -3.38678154
+      ],
+      [
+        -4.09308299,
+        0.002610666754965981,
+        -3.40012315
+      ],
+      [
+        -4.07223873,
+        0.002610666754965981,
+        -3.41558231
+      ],
+      [
+        -4.05301011,
+        0.002610666754965981,
+        -3.43301011
+      ],
+      [
+        -4.03558231,
+        0.002610666754965981,
+        -3.45223873
+      ],
+      [
+        -3.46,
+        0.002610666754965981,
+        -3.12444363
+      ]
+    ],
+    "traversed_region_ids": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "portal_ids": [
+      0
+    ],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 6,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 244,
+        "waypoint_index": 15,
+        "event_seq": 1
+      }
+    ]
+  }
+}

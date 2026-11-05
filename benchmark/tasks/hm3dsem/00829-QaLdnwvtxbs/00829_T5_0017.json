@@ -1,0 +1,244 @@
+{
+  "task_id": "00829_T5_0017",
+  "scene_id": "00829-QaLdnwvtxbs",
+  "family": "T5_prefer",
+  "instruction": "Navigate to the washbasin with soap nearby, preferably without entering the living room.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 6,
+    "level": 0,
+    "floor_height": -0.004350333222343276,
+    "x": -5.867705078522219,
+    "y": -3.569330387651402,
+    "component": 0
+  },
+  "start_heading": 0.5725198051897099,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "washbasin",
+      "selected_id": 243,
+      "base_candidate_ids": [
+        109,
+        110,
+        204,
+        243
+      ],
+      "confusion_labels": [
+        "basin",
+        "bath sink",
+        "kitchen sink",
+        "sink",
+        "washbasin",
+        "water basin"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              113,
+              245
+            ],
+            "head": "soap",
+            "quantifier": "exists",
+            "phrase": "at least one soap",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            109,
+            110,
+            243
+          ],
+          "relation_witnesses": {
+            "243": [
+              245
+            ],
+            "109": [
+              113
+            ],
+            "110": [
+              113
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "prefer_avoid",
+        "entity_kind": "region",
+        "entity_ids": [
+          0
+        ],
+        "phrase": "the living room",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "head": "living room"
+      }
+    ]
+  },
+  "grounded_dsl": "START POS -5.86770508 -0.0044 -3.56933039\nGOAL OBJ 243\nPREFER AVOID REGION 0 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "soft_preference",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      109,
+      110,
+      243
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        -5.86770508,
+        -0.004350333222343276,
+        -3.56933039
+      ],
+      [
+        -4.62673348,
+        -0.004350333222343276,
+        -3.2097641
+      ],
+      [
+        -4.23050196,
+        0.002610666754965981,
+        -3.06444363
+      ],
+      [
+        -4.22,
+        0.002610666754965981,
+        -3.06444363
+      ],
+      [
+        -4.19407999,
+        0.002610666754965981,
+        -3.06317027
+      ],
+      [
+        -4.16840961,
+        0.002610666754965981,
+        -3.05936242
+      ],
+      [
+        -4.14323606,
+        0.002610666754965981,
+        -3.05305678
+      ],
+      [
+        -4.1188018,
+        0.002610666754965981,
+        -3.04431406
+      ],
+      [
+        -4.09534213,
+        0.002610666754965981,
+        -3.03321846
+      ],
+      [
+        -4.07308299,
+        0.002610666754965981,
+        -3.01987685
+      ],
+      [
+        -4.05223873,
+        0.002610666754965981,
+        -3.00441769
+      ],
+      [
+        -4.03301011,
+        0.002610666754965981,
+        -2.98698989
+      ],
+      [
+        -4.01558231,
+        0.002610666754965981,
+        -2.96776127
+      ],
+      [
+        -4.00012315,
+        0.002610666754965981,
+        -2.94691701
+      ],
+      [
+        -3.98678154,
+        0.002610666754965981,
+        -2.92465787
+      ],
+      [
+        -3.97568594,
+        0.002610666754965981,
+        -2.9011982
+      ],
+      [
+        -3.96694322,
+        0.002610666754965981,
+        -2.87676394
+      ],
+      [
+        -3.95568594,
+        0.002610666754965981,
+        -2.8411982
+      ],
+      [
+        -3.78317027,
+        0.002610666754965981,
+        -2.82592001
+      ]
+    ],
+    "traversed_region_ids": [
+      6,
+      6,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "portal_ids": [
+      0
+    ],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 6,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 243,
+        "waypoint_index": 18,
+        "event_seq": 1
+      }
+    ]
+  }
+}

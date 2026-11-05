@@ -1,0 +1,4377 @@
+{
+  "scene_id": "00873-bxsVRursffK",
+  "levels": [
+    {
+      "index": 0,
+      "label": "level 0",
+      "description": "",
+      "floor_elevation_mean": -3.067049741744995,
+      "ceiling_elevation_mean": -0.13209833353757858,
+      "height_mean": 2.9349514082074166
+    },
+    {
+      "index": 1,
+      "label": "level 1",
+      "description": "",
+      "floor_elevation_mean": 0.017901666462421417,
+      "ceiling_elevation_mean": 3.0179016664624214,
+      "height_mean": 3.0
+    }
+  ],
+  "regions": [
+    {
+      "index": 0,
+      "label": "entryway/foyer/lobby",
+      "description": "",
+      "level": 0
+    },
+    {
+      "index": 1,
+      "label": "toilet",
+      "description": "",
+      "level": 0
+    },
+    {
+      "index": 2,
+      "label": "bedroom",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 3,
+      "label": "closet",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 4,
+      "label": "bedroom",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 5,
+      "label": "closet",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 6,
+      "label": "bathroom",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 7,
+      "label": "laundryroom/mudroom",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 8,
+      "label": "bedroom",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 9,
+      "label": "toilet",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 10,
+      "label": "closet",
+      "description": "",
+      "level": 1
+    },
+    {
+      "index": 11,
+      "label": "living room",
+      "description": "",
+      "level": 0
+    },
+    {
+      "index": 12,
+      "label": "hallway",
+      "description": "",
+      "level": 1
+    }
+  ],
+  "objects": [
+    {
+      "index": 1,
+      "region_index": 10,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 2,
+      "region_index": 10,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 3,
+      "region_index": 10,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 4,
+      "region_index": 10,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 5,
+      "region_index": 10,
+      "level": 1,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 6,
+      "region_index": 10,
+      "level": 1,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 7,
+      "region_index": 10,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 8,
+      "region_index": 10,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 9,
+      "region_index": 10,
+      "level": 1,
+      "label": "hanging clothes",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 10,
+      "region_index": 10,
+      "level": 1,
+      "label": "clothes hanger rod",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 11,
+      "region_index": 10,
+      "level": 1,
+      "label": "clothes hanger rod",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 12,
+      "region_index": 10,
+      "level": 1,
+      "label": "hat",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 13,
+      "region_index": 10,
+      "level": 1,
+      "label": "handbag",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 14,
+      "region_index": 10,
+      "level": 1,
+      "label": "clothes hanger",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 15,
+      "region_index": 10,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 16,
+      "region_index": 10,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 17,
+      "region_index": 10,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 18,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 19,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 20,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 21,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 22,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 23,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 24,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 25,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 26,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 27,
+      "region_index": 9,
+      "level": 1,
+      "label": "toilet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 28,
+      "region_index": -1,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 29,
+      "region_index": 9,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 30,
+      "region_index": 9,
+      "level": 1,
+      "label": "bathroom towel",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 31,
+      "region_index": 9,
+      "level": 1,
+      "label": "soap dispenser",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 32,
+      "region_index": 9,
+      "level": 1,
+      "label": "soap dispenser",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 33,
+      "region_index": 9,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 34,
+      "region_index": 9,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 35,
+      "region_index": 9,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 36,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 37,
+      "region_index": 9,
+      "level": 1,
+      "label": "wall lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 38,
+      "region_index": 9,
+      "level": 1,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 39,
+      "region_index": 9,
+      "level": 1,
+      "label": "cosmetics",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 40,
+      "region_index": 9,
+      "level": 1,
+      "label": "cosmetics",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 41,
+      "region_index": 9,
+      "level": 1,
+      "label": "cosmetics",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 42,
+      "region_index": 9,
+      "level": 1,
+      "label": "bathroom counter",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 43,
+      "region_index": 9,
+      "level": 1,
+      "label": "sink",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 44,
+      "region_index": 9,
+      "level": 1,
+      "label": "sink",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 45,
+      "region_index": 9,
+      "level": 1,
+      "label": "bathroom cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 46,
+      "region_index": 9,
+      "level": 1,
+      "label": "bathroom cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 47,
+      "region_index": 9,
+      "level": 1,
+      "label": "bathroom cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 48,
+      "region_index": 9,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 49,
+      "region_index": 9,
+      "level": 1,
+      "label": "shower door frame",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 50,
+      "region_index": 8,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 51,
+      "region_index": 8,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 52,
+      "region_index": 8,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 53,
+      "region_index": 8,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 54,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 55,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 56,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 57,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 58,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 59,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 60,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 61,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 62,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 63,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 64,
+      "region_index": 8,
+      "level": 1,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 65,
+      "region_index": 8,
+      "level": 1,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 66,
+      "region_index": 8,
+      "level": 1,
+      "label": "curtain",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 67,
+      "region_index": 8,
+      "level": 1,
+      "label": "curtain",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 68,
+      "region_index": 8,
+      "level": 1,
+      "label": "curtain rod",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 69,
+      "region_index": 8,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 70,
+      "region_index": -1,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 71,
+      "region_index": 8,
+      "level": 1,
+      "label": "cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 72,
+      "region_index": 8,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 73,
+      "region_index": 8,
+      "level": 1,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 74,
+      "region_index": 8,
+      "level": 1,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 75,
+      "region_index": 8,
+      "level": 1,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 76,
+      "region_index": 8,
+      "level": 1,
+      "label": "vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 77,
+      "region_index": 8,
+      "level": 1,
+      "label": "vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 78,
+      "region_index": 8,
+      "level": 1,
+      "label": "plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 79,
+      "region_index": 8,
+      "level": 1,
+      "label": "rock",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 80,
+      "region_index": 8,
+      "level": 1,
+      "label": "end table",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 81,
+      "region_index": 8,
+      "level": 1,
+      "label": "bedside lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 82,
+      "region_index": 8,
+      "level": 1,
+      "label": "alarm clock",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 83,
+      "region_index": 8,
+      "level": 1,
+      "label": "plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 84,
+      "region_index": 8,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 85,
+      "region_index": 8,
+      "level": 1,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 86,
+      "region_index": 8,
+      "level": 1,
+      "label": "end table",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 87,
+      "region_index": 8,
+      "level": 1,
+      "label": "bedside lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 88,
+      "region_index": 8,
+      "level": 1,
+      "label": "vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 89,
+      "region_index": 8,
+      "level": 1,
+      "label": "plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 90,
+      "region_index": 8,
+      "level": 1,
+      "label": "candle",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 91,
+      "region_index": 8,
+      "level": 1,
+      "label": "bed",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 92,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 93,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 94,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 95,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 96,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 97,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 98,
+      "region_index": 8,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 99,
+      "region_index": 8,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 100,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 101,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 102,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 103,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 104,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 105,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 106,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 107,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 108,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 109,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 110,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 111,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 112,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 113,
+      "region_index": 12,
+      "level": 1,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 114,
+      "region_index": 12,
+      "level": 1,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 115,
+      "region_index": 12,
+      "level": 1,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 116,
+      "region_index": 11,
+      "level": 0,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 117,
+      "region_index": 12,
+      "level": 1,
+      "label": "smoke detector",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 118,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 119,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 120,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 121,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 122,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 123,
+      "region_index": 12,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 124,
+      "region_index": 12,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 125,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 126,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 127,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 128,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 129,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 130,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 131,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 132,
+      "region_index": 12,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 133,
+      "region_index": 12,
+      "level": 1,
+      "label": "table",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 134,
+      "region_index": 12,
+      "level": 1,
+      "label": "box",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 135,
+      "region_index": 12,
+      "level": 1,
+      "label": "stool",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 136,
+      "region_index": 12,
+      "level": 1,
+      "label": "stool",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 137,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 138,
+      "region_index": 12,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 139,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 140,
+      "region_index": 12,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 141,
+      "region_index": 12,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 142,
+      "region_index": 12,
+      "level": 1,
+      "label": "handrail",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 143,
+      "region_index": 12,
+      "level": 1,
+      "label": "handrail",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 144,
+      "region_index": 1,
+      "level": 0,
+      "label": "handrail",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 145,
+      "region_index": 12,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 146,
+      "region_index": 2,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 147,
+      "region_index": 2,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 148,
+      "region_index": 2,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 149,
+      "region_index": 2,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 150,
+      "region_index": 2,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 151,
+      "region_index": 2,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 152,
+      "region_index": 2,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 153,
+      "region_index": 2,
+      "level": 1,
+      "label": "smoke detector",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 154,
+      "region_index": 2,
+      "level": 1,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 155,
+      "region_index": 2,
+      "level": 1,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 156,
+      "region_index": 2,
+      "level": 1,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 157,
+      "region_index": 2,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 158,
+      "region_index": 3,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 159,
+      "region_index": 3,
+      "level": 1,
+      "label": "closet door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 160,
+      "region_index": 2,
+      "level": 1,
+      "label": "closet door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 161,
+      "region_index": 2,
+      "level": 1,
+      "label": "hanging clothes",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 162,
+      "region_index": 2,
+      "level": 1,
+      "label": "backpack",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 163,
+      "region_index": 2,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 164,
+      "region_index": 2,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 165,
+      "region_index": 2,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 166,
+      "region_index": 2,
+      "level": 1,
+      "label": "hat",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 167,
+      "region_index": 2,
+      "level": 1,
+      "label": "chest",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 168,
+      "region_index": 2,
+      "level": 1,
+      "label": "toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 169,
+      "region_index": 2,
+      "level": 1,
+      "label": "toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 170,
+      "region_index": 2,
+      "level": 1,
+      "label": "toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 171,
+      "region_index": 2,
+      "level": 1,
+      "label": "toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 172,
+      "region_index": 2,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 173,
+      "region_index": 2,
+      "level": 1,
+      "label": "bed",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 174,
+      "region_index": 2,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 175,
+      "region_index": 2,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 176,
+      "region_index": 2,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 177,
+      "region_index": 2,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 178,
+      "region_index": 2,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 179,
+      "region_index": 2,
+      "level": 1,
+      "label": "nightstand",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 180,
+      "region_index": 2,
+      "level": 1,
+      "label": "toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 181,
+      "region_index": 2,
+      "level": 1,
+      "label": "bedside lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 182,
+      "region_index": 3,
+      "level": 1,
+      "label": "closet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 183,
+      "region_index": 2,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 184,
+      "region_index": 12,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 185,
+      "region_index": 7,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 186,
+      "region_index": 7,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 187,
+      "region_index": 7,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 188,
+      "region_index": 7,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 189,
+      "region_index": 7,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 190,
+      "region_index": 7,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 191,
+      "region_index": 7,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 192,
+      "region_index": 7,
+      "level": 1,
+      "label": "washing machine",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 193,
+      "region_index": 7,
+      "level": 1,
+      "label": "clothes dryer",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 194,
+      "region_index": 7,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 195,
+      "region_index": 7,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 196,
+      "region_index": 7,
+      "level": 1,
+      "label": "box",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 197,
+      "region_index": 7,
+      "level": 1,
+      "label": "box",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 198,
+      "region_index": 7,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 199,
+      "region_index": 7,
+      "level": 1,
+      "label": "wall hanging decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 200,
+      "region_index": 12,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 201,
+      "region_index": 6,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 202,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 203,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 204,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 205,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 206,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 207,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 208,
+      "region_index": 6,
+      "level": 1,
+      "label": "shower wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 209,
+      "region_index": 6,
+      "level": 1,
+      "label": "shower wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 210,
+      "region_index": 6,
+      "level": 1,
+      "label": "shower caddy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 211,
+      "region_index": 6,
+      "level": 1,
+      "label": "shower caddy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 212,
+      "region_index": 6,
+      "level": 1,
+      "label": "shower curtain",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 213,
+      "region_index": 6,
+      "level": 1,
+      "label": "bathtub",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 214,
+      "region_index": 6,
+      "level": 1,
+      "label": "shower wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 215,
+      "region_index": 6,
+      "level": 1,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 216,
+      "region_index": 6,
+      "level": 1,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 217,
+      "region_index": 6,
+      "level": 1,
+      "label": "wall lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 218,
+      "region_index": 6,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 219,
+      "region_index": 6,
+      "level": 1,
+      "label": "toilet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 220,
+      "region_index": 6,
+      "level": 1,
+      "label": "bath towel",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 221,
+      "region_index": 6,
+      "level": 1,
+      "label": "bathroom towel",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 222,
+      "region_index": 6,
+      "level": 1,
+      "label": "bathroom shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 223,
+      "region_index": 6,
+      "level": 1,
+      "label": "hot water/cold water knob",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 224,
+      "region_index": 6,
+      "level": 1,
+      "label": "toiletry",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 225,
+      "region_index": 6,
+      "level": 1,
+      "label": "soap dispenser",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 226,
+      "region_index": 6,
+      "level": 1,
+      "label": "bathroom cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 227,
+      "region_index": 6,
+      "level": 1,
+      "label": "bathroom counter",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 228,
+      "region_index": 6,
+      "level": 1,
+      "label": "sink",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 229,
+      "region_index": 6,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 230,
+      "region_index": 4,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 231,
+      "region_index": 4,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 232,
+      "region_index": 4,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 233,
+      "region_index": 4,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 234,
+      "region_index": 4,
+      "level": 1,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 235,
+      "region_index": 4,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 236,
+      "region_index": 4,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 237,
+      "region_index": 4,
+      "level": 1,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 238,
+      "region_index": 4,
+      "level": 1,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 239,
+      "region_index": 4,
+      "level": 1,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 240,
+      "region_index": 4,
+      "level": 1,
+      "label": "mirror frame",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 241,
+      "region_index": 4,
+      "level": 1,
+      "label": "wall hanging decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 242,
+      "region_index": 4,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 243,
+      "region_index": 4,
+      "level": 1,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 244,
+      "region_index": 4,
+      "level": 1,
+      "label": "picture",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 245,
+      "region_index": 4,
+      "level": 1,
+      "label": "jar",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 246,
+      "region_index": 4,
+      "level": 1,
+      "label": "jar",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 247,
+      "region_index": 4,
+      "level": 1,
+      "label": "jar",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 248,
+      "region_index": 4,
+      "level": 1,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 249,
+      "region_index": 5,
+      "level": 1,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 250,
+      "region_index": 4,
+      "level": 1,
+      "label": "closet door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 251,
+      "region_index": 5,
+      "level": 1,
+      "label": "closet door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 252,
+      "region_index": 5,
+      "level": 1,
+      "label": "closet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 253,
+      "region_index": 4,
+      "level": 1,
+      "label": "bean bag chair",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 254,
+      "region_index": 4,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 255,
+      "region_index": 4,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 256,
+      "region_index": 4,
+      "level": 1,
+      "label": "cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 257,
+      "region_index": 4,
+      "level": 1,
+      "label": "box",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 258,
+      "region_index": 4,
+      "level": 1,
+      "label": "bottle",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 259,
+      "region_index": 4,
+      "level": 1,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 260,
+      "region_index": 4,
+      "level": 1,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 261,
+      "region_index": 4,
+      "level": 1,
+      "label": "end table",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 262,
+      "region_index": 4,
+      "level": 1,
+      "label": "bedside lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 263,
+      "region_index": 4,
+      "level": 1,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 264,
+      "region_index": 4,
+      "level": 1,
+      "label": "alarm clock",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 265,
+      "region_index": 4,
+      "level": 1,
+      "label": "bed",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 266,
+      "region_index": 4,
+      "level": 1,
+      "label": "hanging clothes",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 267,
+      "region_index": 4,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 268,
+      "region_index": 4,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 269,
+      "region_index": 4,
+      "level": 1,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 270,
+      "region_index": 4,
+      "level": 1,
+      "label": "plush toy",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 271,
+      "region_index": 4,
+      "level": 1,
+      "label": "wall hanging decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 272,
+      "region_index": 4,
+      "level": 1,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 273,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 274,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 275,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 276,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 277,
+      "region_index": 12,
+      "level": 1,
+      "label": "handrail",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 278,
+      "region_index": 11,
+      "level": 0,
+      "label": "handrail",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 279,
+      "region_index": 11,
+      "level": 0,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 280,
+      "region_index": 11,
+      "level": 0,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 281,
+      "region_index": -1,
+      "level": 0,
+      "label": "stairs",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 282,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 283,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 284,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 285,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 286,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 287,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 288,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 289,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 290,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 291,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 292,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 293,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 294,
+      "region_index": 11,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 295,
+      "region_index": 7,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 296,
+      "region_index": 7,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 297,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 298,
+      "region_index": 11,
+      "level": 0,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 299,
+      "region_index": 12,
+      "level": 1,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 300,
+      "region_index": 11,
+      "level": 0,
+      "label": "support beam",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 301,
+      "region_index": 11,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 302,
+      "region_index": 11,
+      "level": 0,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 303,
+      "region_index": 11,
+      "level": 0,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 304,
+      "region_index": 11,
+      "level": 0,
+      "label": "painting",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 305,
+      "region_index": 11,
+      "level": 0,
+      "label": "fireplace",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 306,
+      "region_index": 11,
+      "level": 0,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 307,
+      "region_index": 11,
+      "level": 0,
+      "label": "mirror frame",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 308,
+      "region_index": 11,
+      "level": 0,
+      "label": "mirror",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 309,
+      "region_index": 11,
+      "level": 0,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 310,
+      "region_index": 11,
+      "level": 0,
+      "label": "wall hanging decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 311,
+      "region_index": 11,
+      "level": 0,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 312,
+      "region_index": 11,
+      "level": 0,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 313,
+      "region_index": 11,
+      "level": 0,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 314,
+      "region_index": 11,
+      "level": 0,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 315,
+      "region_index": 11,
+      "level": 0,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 316,
+      "region_index": 11,
+      "level": 0,
+      "label": "parapet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 317,
+      "region_index": 11,
+      "level": 0,
+      "label": "dining chair",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 318,
+      "region_index": 11,
+      "level": 0,
+      "label": "dining chair",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 319,
+      "region_index": 11,
+      "level": 0,
+      "label": "dining chair",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 320,
+      "region_index": 11,
+      "level": 0,
+      "label": "dining chair",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 321,
+      "region_index": 11,
+      "level": 0,
+      "label": "dining table",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 322,
+      "region_index": 11,
+      "level": 0,
+      "label": "plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 323,
+      "region_index": 11,
+      "level": 0,
+      "label": "flower vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 324,
+      "region_index": 11,
+      "level": 0,
+      "label": "candle holder",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 325,
+      "region_index": 11,
+      "level": 0,
+      "label": "l-shaped sofa",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 326,
+      "region_index": 11,
+      "level": 0,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 327,
+      "region_index": 11,
+      "level": 0,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 328,
+      "region_index": 11,
+      "level": 0,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 329,
+      "region_index": 11,
+      "level": 0,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 330,
+      "region_index": 11,
+      "level": 0,
+      "label": "pillow",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 331,
+      "region_index": 11,
+      "level": 0,
+      "label": "coffee table",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 332,
+      "region_index": 11,
+      "level": 0,
+      "label": "box",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 333,
+      "region_index": 11,
+      "level": 0,
+      "label": "flower vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 334,
+      "region_index": 11,
+      "level": 0,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 335,
+      "region_index": 11,
+      "level": 0,
+      "label": "shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 336,
+      "region_index": 11,
+      "level": 0,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 337,
+      "region_index": 11,
+      "level": 0,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 338,
+      "region_index": 11,
+      "level": 0,
+      "label": "candle",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 339,
+      "region_index": 11,
+      "level": 0,
+      "label": "picture",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 340,
+      "region_index": 11,
+      "level": 0,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 341,
+      "region_index": 11,
+      "level": 0,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 342,
+      "region_index": 11,
+      "level": 0,
+      "label": "vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 343,
+      "region_index": 11,
+      "level": 0,
+      "label": "cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 344,
+      "region_index": 11,
+      "level": 0,
+      "label": "cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 345,
+      "region_index": 11,
+      "level": 0,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 346,
+      "region_index": 11,
+      "level": 0,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 347,
+      "region_index": 11,
+      "level": 0,
+      "label": "vase",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 348,
+      "region_index": 11,
+      "level": 0,
+      "label": "picture",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 349,
+      "region_index": 11,
+      "level": 0,
+      "label": "picture",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 350,
+      "region_index": 11,
+      "level": 0,
+      "label": "curtain rail",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 351,
+      "region_index": 11,
+      "level": 0,
+      "label": "curtain",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 352,
+      "region_index": 11,
+      "level": 0,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 353,
+      "region_index": 11,
+      "level": 0,
+      "label": "sliding glass door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 354,
+      "region_index": 11,
+      "level": 0,
+      "label": "sliding glass door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 355,
+      "region_index": 11,
+      "level": 0,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 356,
+      "region_index": 11,
+      "level": 0,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 357,
+      "region_index": 11,
+      "level": 0,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 358,
+      "region_index": 11,
+      "level": 0,
+      "label": "refrigerator",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 359,
+      "region_index": 11,
+      "level": 0,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 360,
+      "region_index": 11,
+      "level": 0,
+      "label": "ceiling lamp",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 361,
+      "region_index": 11,
+      "level": 0,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 362,
+      "region_index": 11,
+      "level": 0,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 363,
+      "region_index": 11,
+      "level": 0,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 364,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen island",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 365,
+      "region_index": 11,
+      "level": 0,
+      "label": "bowl of fruit",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 366,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 367,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 368,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 369,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 370,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 371,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 372,
+      "region_index": 11,
+      "level": 0,
+      "label": "microwave",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 373,
+      "region_index": 11,
+      "level": 0,
+      "label": "pipe",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 374,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen counter",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 375,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen counter",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 376,
+      "region_index": 11,
+      "level": 0,
+      "label": "book",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 377,
+      "region_index": 11,
+      "level": 0,
+      "label": "sink",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 378,
+      "region_index": 11,
+      "level": 0,
+      "label": "box",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 379,
+      "region_index": 11,
+      "level": 0,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 380,
+      "region_index": 11,
+      "level": 0,
+      "label": "coffee machine",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 381,
+      "region_index": 11,
+      "level": 0,
+      "label": "cup",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 382,
+      "region_index": 11,
+      "level": 0,
+      "label": "cup",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 383,
+      "region_index": 11,
+      "level": 0,
+      "label": "spice rack",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 384,
+      "region_index": 11,
+      "level": 0,
+      "label": "bowl",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 385,
+      "region_index": 11,
+      "level": 0,
+      "label": "bowl",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 386,
+      "region_index": 11,
+      "level": 0,
+      "label": "bowl of fruit",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 387,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen utensil",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 388,
+      "region_index": 11,
+      "level": 0,
+      "label": "oven and stove",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 389,
+      "region_index": 11,
+      "level": 0,
+      "label": "bottle",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 390,
+      "region_index": 11,
+      "level": 0,
+      "label": "fruit bowl",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 391,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 392,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 393,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 394,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 395,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 396,
+      "region_index": 11,
+      "level": 0,
+      "label": "kitchen cabinet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 397,
+      "region_index": 11,
+      "level": 0,
+      "label": "dishwasher",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 398,
+      "region_index": 11,
+      "level": 0,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 399,
+      "region_index": 11,
+      "level": 0,
+      "label": "carpet",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 400,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 401,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 402,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 403,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 404,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 405,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 406,
+      "region_index": 0,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 407,
+      "region_index": 0,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 408,
+      "region_index": 8,
+      "level": 1,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 409,
+      "region_index": 0,
+      "level": 0,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 410,
+      "region_index": 0,
+      "level": 0,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 411,
+      "region_index": 0,
+      "level": 0,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 412,
+      "region_index": 0,
+      "level": 0,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 413,
+      "region_index": 0,
+      "level": 0,
+      "label": "motion detector",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 414,
+      "region_index": 0,
+      "level": 0,
+      "label": "wall hanging decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 415,
+      "region_index": 0,
+      "level": 0,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 416,
+      "region_index": 0,
+      "level": 0,
+      "label": "blinds",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 417,
+      "region_index": 0,
+      "level": 0,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 418,
+      "region_index": 0,
+      "level": 0,
+      "label": "window frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 419,
+      "region_index": 0,
+      "level": 0,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 420,
+      "region_index": 0,
+      "level": 0,
+      "label": "window",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 421,
+      "region_index": 0,
+      "level": 0,
+      "label": "coat hanger",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 422,
+      "region_index": 0,
+      "level": 0,
+      "label": "handbag",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 423,
+      "region_index": 0,
+      "level": 0,
+      "label": "hat",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 424,
+      "region_index": 0,
+      "level": 0,
+      "label": "backpack",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 425,
+      "region_index": 0,
+      "level": 0,
+      "label": "bench",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 426,
+      "region_index": 0,
+      "level": 0,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": 427,
+      "region_index": 1,
+      "level": 0,
+      "label": "door frame",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 428,
+      "region_index": 1,
+      "level": 0,
+      "label": "door",
+      "description": "",
+      "traversal_type": "Interactable",
+      "geometry_ref": null
+    },
+    {
+      "index": 429,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 430,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 431,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 432,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 433,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 434,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 435,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 436,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 437,
+      "region_index": 1,
+      "level": 0,
+      "label": "mirror",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 438,
+      "region_index": 1,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 439,
+      "region_index": 1,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 440,
+      "region_index": 1,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 441,
+      "region_index": 1,
+      "level": 0,
+      "label": "ceiling",
+      "description": "",
+      "traversal_type": "Structural",
+      "geometry_ref": null
+    },
+    {
+      "index": 442,
+      "region_index": 1,
+      "level": 0,
+      "label": "sink",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 443,
+      "region_index": 1,
+      "level": 0,
+      "label": "wall toilet paper",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 444,
+      "region_index": 1,
+      "level": 0,
+      "label": "bathroom towel",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 445,
+      "region_index": 1,
+      "level": 0,
+      "label": "trash can",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 446,
+      "region_index": 1,
+      "level": 0,
+      "label": "toilet",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 447,
+      "region_index": 1,
+      "level": 0,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 448,
+      "region_index": 1,
+      "level": 0,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 449,
+      "region_index": 1,
+      "level": 0,
+      "label": "decoration",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 450,
+      "region_index": 1,
+      "level": 0,
+      "label": "decorative plant",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 451,
+      "region_index": 1,
+      "level": 0,
+      "label": "bathroom shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 452,
+      "region_index": 1,
+      "level": 0,
+      "label": "bathroom shelf",
+      "description": "",
+      "traversal_type": "Obstacle",
+      "geometry_ref": null
+    },
+    {
+      "index": 453,
+      "region_index": 1,
+      "level": 0,
+      "label": "floor",
+      "description": "",
+      "traversal_type": "Passable",
+      "geometry_ref": null
+    },
+    {
+      "index": -1,
+      "region_index": 11,
+      "level": 0,
+      "label": "unassigned geometry",
+      "description": "mesh faces without a semantic object record",
+      "traversal_type": "Structural",
+      "geometry_ref": "face2obj:-1"
+    }
+  ],
+  "portals": [
+    {
+      "index": 0,
+      "label": "door",
+      "description": "",
+      "region_a": 5,
+      "region_b": 4,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        249,
+        250,
+        251,
+        248
+      ],
+      "status": "open"
+    },
+    {
+      "index": 1,
+      "label": "door",
+      "description": "",
+      "region_a": 2,
+      "region_b": 3,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        158,
+        160,
+        159,
+        352
+      ],
+      "status": "open"
+    },
+    {
+      "index": 2,
+      "label": "door",
+      "description": "",
+      "region_a": 9,
+      "region_b": 8,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        28,
+        29,
+        49
+      ],
+      "status": "open"
+    },
+    {
+      "index": 3,
+      "label": "door",
+      "description": "",
+      "region_a": 10,
+      "region_b": 9,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        17,
+        16,
+        49
+      ],
+      "status": "open"
+    },
+    {
+      "index": 4,
+      "label": "door",
+      "description": "",
+      "region_a": 1,
+      "region_b": 11,
+      "level_a": 0,
+      "level_b": 0,
+      "object_indices": [
+        427,
+        428,
+        184,
+        140
+      ],
+      "status": "unknown"
+    },
+    {
+      "index": 5,
+      "label": "opening",
+      "description": "",
+      "region_a": 11,
+      "region_b": 0,
+      "level_a": 0,
+      "level_b": 0,
+      "object_indices": [
+        410
+      ],
+      "status": "open"
+    },
+    {
+      "index": 6,
+      "label": "door",
+      "description": "",
+      "region_a": 12,
+      "region_b": 2,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        146,
+        157,
+        140,
+        141
+      ],
+      "status": "open"
+    },
+    {
+      "index": 7,
+      "label": "door",
+      "description": "",
+      "region_a": 12,
+      "region_b": 6,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        200,
+        201,
+        230,
+        184
+      ],
+      "status": "open"
+    },
+    {
+      "index": 8,
+      "label": "door",
+      "description": "",
+      "region_a": 12,
+      "region_b": 7,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        184,
+        185,
+        200,
+        140
+      ],
+      "status": "open"
+    },
+    {
+      "index": 9,
+      "label": "door",
+      "description": "",
+      "region_a": 12,
+      "region_b": 8,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        279,
+        70,
+        280,
+        69
+      ],
+      "status": "open"
+    },
+    {
+      "index": 10,
+      "label": "door",
+      "description": "",
+      "region_a": 4,
+      "region_b": 12,
+      "level_a": 1,
+      "level_b": 1,
+      "object_indices": [
+        230,
+        248,
+        200,
+        201
+      ],
+      "status": "open"
+    },
+    {
+      "index": 11,
+      "label": "stair",
+      "description": "",
+      "region_a": 12,
+      "region_b": 11,
+      "level_a": 1,
+      "level_b": 0,
+      "object_indices": [
+        281
+      ],
+      "status": "open"
+    }
+  ],
+  "annotation_sha256": "2f5423f73a491a429a33622b263e6abcdf4fae5e13c576a77f5c008e952d6436",
+  "data_source": "hm3dsem"
+}

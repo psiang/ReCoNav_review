@@ -1,0 +1,136 @@
+{
+  "scene_id": "00891-cvZr5TUy5C5",
+  "topology": [
+    {
+      "region_a": 3,
+      "region_b": 2,
+      "portal_index": 0
+    },
+    {
+      "region_a": 2,
+      "region_b": 0,
+      "portal_index": 1
+    },
+    {
+      "region_a": 0,
+      "region_b": 1,
+      "portal_index": 2
+    },
+    {
+      "region_a": 4,
+      "region_b": 1,
+      "portal_index": 3
+    },
+    {
+      "region_a": 5,
+      "region_b": 1,
+      "portal_index": 4
+    },
+    {
+      "region_a": 6,
+      "region_b": 7,
+      "portal_index": 5
+    },
+    {
+      "region_a": 8,
+      "region_b": 7,
+      "portal_index": 6
+    },
+    {
+      "region_a": 9,
+      "region_b": 6,
+      "portal_index": 7
+    },
+    {
+      "region_a": 6,
+      "region_b": 8,
+      "portal_index": 8
+    },
+    {
+      "region_a": 12,
+      "region_b": 13,
+      "portal_index": 9
+    },
+    {
+      "region_a": 14,
+      "region_b": 13,
+      "portal_index": 10
+    },
+    {
+      "region_a": 14,
+      "region_b": 15,
+      "portal_index": 11
+    },
+    {
+      "region_a": 16,
+      "region_b": 14,
+      "portal_index": 12
+    },
+    {
+      "region_a": 12,
+      "region_b": 16,
+      "portal_index": 13
+    },
+    {
+      "region_a": 21,
+      "region_b": 12,
+      "portal_index": 14
+    },
+    {
+      "region_a": 22,
+      "region_b": 21,
+      "portal_index": 15
+    },
+    {
+      "region_a": 12,
+      "region_b": 17,
+      "portal_index": 16
+    },
+    {
+      "region_a": 18,
+      "region_b": 17,
+      "portal_index": 17
+    },
+    {
+      "region_a": 18,
+      "region_b": 19,
+      "portal_index": 18
+    },
+    {
+      "region_a": 20,
+      "region_b": 18,
+      "portal_index": 19
+    },
+    {
+      "region_a": 12,
+      "region_b": 6,
+      "portal_index": 20
+    },
+    {
+      "region_a": 6,
+      "region_b": 1,
+      "portal_index": 21
+    },
+    {
+      "region_a": 18,
+      "region_b": 23,
+      "portal_index": 22
+    },
+    {
+      "region_a": 24,
+      "region_b": 11,
+      "portal_index": 23
+    },
+    {
+      "region_a": 10,
+      "region_b": 24,
+      "portal_index": 24
+    },
+    {
+      "region_a": 24,
+      "region_b": 6,
+      "portal_index": 25
+    }
+  ],
+  "annotation_sha256": "8f69eed210414eadf98639d2170cea537a9ac415af75ff69430bdccb3f96528f"
+}

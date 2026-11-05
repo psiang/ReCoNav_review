@@ -1,0 +1,382 @@
+{
+  "task_id": "00848_T3_0007",
+  "scene_id": "00848-ziup5kvtCCR",
+  "family": "T3_avoid",
+  "instruction": "Go to the cabinet with a clock nearby, avoiding the hallway.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 3,
+    "level": 0,
+    "floor_height": 0.004225333221256733,
+    "x": -2.4551153306187197,
+    "y": 7.305387270354113,
+    "component": 0
+  },
+  "start_heading": 1.6445728898721923,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "cabinet",
+      "selected_id": 180,
+      "base_candidate_ids": [
+        77,
+        78,
+        79,
+        85,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        96,
+        107,
+        108,
+        109,
+        127,
+        130,
+        143,
+        180,
+        195,
+        226,
+        227,
+        228,
+        257
+      ],
+      "confusion_labels": [
+        "bar cabinet",
+        "bath cabinet",
+        "bathroom cabinet",
+        "bed cabinet",
+        "bedside cabinet",
+        "book cabinet",
+        "cabinet",
+        "cabinet /otherroom",
+        "cabinet /w clutter",
+        "cabinet /w cluttered art",
+        "cabinet kitchen",
+        "closet",
+        "desk cabinet",
+        "dish cabinet",
+        "display cabinet",
+        "door cabinet",
+        "drawer cabinet",
+        "file cabinet",
+        "kitchen cabinet",
+        "kitchen cabinet lower",
+        "kitchen lower cabinet",
+        "kitchen sink cabinet",
+        "lower cabinet",
+        "refrigerator cabinet",
+        "shoe cabinet",
+        "shoe case",
+        "shower cabinet",
+        "shower-bath cabinet",
+        "sink cabinet",
+        "storage cabinet",
+        "storage unit",
+        "wall cabinet",
+        "wardrobe",
+        "wash cabinet",
+        "wine cabinet"
+      ],
+      "qualifiers": [
+        {
+          "kind": "near",
+          "reference": {
+            "kind": "obj",
+            "candidate_ids": [
+              5,
+              22,
+              173
+            ],
+            "head": "clock",
+            "quantifier": "exists",
+            "phrase": "at least one clock",
+            "qualifiers": []
+          },
+          "candidate_ids": [
+            94,
+            108,
+            143,
+            180
+          ],
+          "relation_witnesses": {
+            "180": [
+              173
+            ],
+            "108": [
+              5
+            ],
+            "94": [
+              5
+            ],
+            "143": [
+              5
+            ]
+          }
+        }
+      ]
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "avoid",
+        "entity_kind": "region",
+        "entity_ids": [
+          7
+        ],
+        "phrase": "the hallway",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          7
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "head": "hallway"
+      }
+    ]
+  },
+  "grounded_dsl": "START POS -2.45511533 0.0042 7.30538727\nGOAL OBJ 180\nAVOID REGION 7 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      94,
+      108,
+      143,
+      180
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        -2.45511533,
+        0.0010493333296229441,
+        7.30538727
+      ],
+      [
+        -3.58,
+        0.0010493333296229441,
+        7.32444363
+      ],
+      [
+        -3.6,
+        0.0010493333296229441,
+        7.32444363
+      ],
+      [
+        -3.62592001,
+        0.0010493333296229441,
+        7.32317027
+      ],
+      [
+        -3.65159039,
+        0.0010493333296229441,
+        7.31936242
+      ],
+      [
+        -3.67676394,
+        0.0010493333296229441,
+        7.31305678
+      ],
+      [
+        -3.7011982,
+        0.0010493333296229441,
+        7.30431406
+      ],
+      [
+        -3.72465787,
+        0.0010493333296229441,
+        7.29321846
+      ],
+      [
+        -3.7411982,
+        0.0010493333296229441,
+        7.28431406
+      ],
+      [
+        -3.76465787,
+        0.0010493333296229441,
+        7.27321846
+      ],
+      [
+        -3.78691701,
+        0.0010493333296229441,
+        7.25987685
+      ],
+      [
+        -3.80776127,
+        0.0010493333296229441,
+        7.24441769
+      ],
+      [
+        -3.82698989,
+        0.0010493333296229441,
+        7.22698989
+      ],
+      [
+        -3.84698989,
+        0.0010493333296229441,
+        7.20698989
+      ],
+      [
+        -3.86441769,
+        0.0010493333296229441,
+        7.18776127
+      ],
+      [
+        -3.87987685,
+        0.0010493333296229441,
+        7.16691701
+      ],
+      [
+        -3.89321846,
+        0.0010493333296229441,
+        7.14465787
+      ],
+      [
+        -3.90431406,
+        0.0010493333296229441,
+        7.1211982
+      ],
+      [
+        -3.91305678,
+        0.0010493333296229441,
+        7.09676394
+      ],
+      [
+        -3.92431406,
+        0.0010493333296229441,
+        7.0611982
+      ],
+      [
+        -3.93305678,
+        0.0010493333296229441,
+        7.03676394
+      ],
+      [
+        -3.95987685,
+        0.0010493333296229441,
+        6.98691701
+      ],
+      [
+        -3.97321846,
+        0.0010493333296229441,
+        6.96465787
+      ],
+      [
+        -3.98431406,
+        0.0010493333296229441,
+        6.9411982
+      ],
+      [
+        -3.99305678,
+        0.0010493333296229441,
+        6.91676394
+      ],
+      [
+        -3.99936242,
+        0.0010493333296229441,
+        6.89159039
+      ],
+      [
+        -4.00317027,
+        0.0010493333296229441,
+        6.86592001
+      ],
+      [
+        -4.00444363,
+        0.0010493333296229441,
+        6.84
+      ],
+      [
+        -4.42323606,
+        0.0010493333296229441,
+        5.91305678
+      ],
+      [
+        -4.44840961,
+        0.0010493333296229441,
+        5.91936242
+      ],
+      [
+        -4.47407999,
+        0.0010493333296229441,
+        5.92317027
+      ],
+      [
+        -4.5,
+        0.0010493333296229441,
+        5.92444363
+      ],
+      [
+        -4.75555637,
+        0.0010493333296229441,
+        5.92444363
+      ]
+    ],
+    "traversed_region_ids": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "portal_ids": [],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 3,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 180,
+        "waypoint_index": 32,
+        "event_seq": 1
+      }
+    ]
+  }
+}

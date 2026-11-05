@@ -1,0 +1,103 @@
+{
+  "task_id": "00829_T3_0005",
+  "scene_id": "00829-QaLdnwvtxbs",
+  "family": "T3_avoid",
+  "instruction": "Go to the towel bar without entering the living room.",
+  "robot_position": {
+    "kind": "pos",
+    "region": 5,
+    "level": 0,
+    "floor_height": 0.004834333357090752,
+    "x": -3.9752049239623752,
+    "y": -5.150639679306611,
+    "component": 0
+  },
+  "start_heading": 3.9864552635919486,
+  "symbolic_ir": {
+    "goal": {
+      "kind": "obj",
+      "head": "towel bar",
+      "selected_id": 251,
+      "base_candidate_ids": [
+        116,
+        125,
+        251
+      ],
+      "confusion_labels": [
+        "towel bar"
+      ],
+      "qualifiers": []
+    },
+    "vias": [],
+    "orders": [],
+    "constraints": [
+      {
+        "kind": "avoid",
+        "entity_kind": "region",
+        "entity_ids": [
+          0
+        ],
+        "phrase": "the living room",
+        "target_type": "region",
+        "qualifiers": [],
+        "base_entity_ids": [
+          0
+        ],
+        "scope": {
+          "after": "START",
+          "until": "GOAL"
+        },
+        "head": "living room"
+      }
+    ]
+  },
+  "grounded_dsl": "START POS -3.97520492 0.0048 -5.15063968\nGOAL OBJ 251\nAVOID REGION 0 AFTER START UNTIL GOAL",
+  "uniqueness_proof": {
+    "identity_class": "hard_constraint",
+    "identity_target": {
+      "role": "goal",
+      "name": "GOAL",
+      "kind": "obj"
+    },
+    "qualified_candidate_ids": [
+      116,
+      125,
+      251
+    ]
+  },
+  "selected_route": {
+    "waypoints": [
+      [
+        -3.97520492,
+        0.002610666754965981,
+        -5.15063968
+      ],
+      [
+        -3.20444363,
+        0.002610666754965981,
+        -3.26658569
+      ]
+    ],
+    "traversed_region_ids": [
+      5,
+      5
+    ],
+    "portal_ids": [],
+    "milestone_hits": [
+      {
+        "name": "START",
+        "kind": "pos",
+        "id": 5,
+        "waypoint_index": 0,
+        "event_seq": 0
+      },
+      {
+        "name": "GOAL",
+        "kind": "obj",
+        "id": 251,
+        "waypoint_index": 1,
+        "event_seq": 1
+      }
+    ]
+  }
+}
