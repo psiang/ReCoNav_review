@@ -5,8 +5,8 @@
   "format": "zip of lossless original JSON vectors",
   "contents": "Scene landmark descriptions and instruction-derived referring expressions",
   "usage": "Automatically reused by Lang2LTL-2; new uncached texts require the original embedding API.",
-  "archive": "lang2ltl2-embeddings-v1.0.0.zip",
-  "downloaded_path": "external/resources/lang2ltl2/embeddings.zip",
+  "archive": "resources/lang2ltl2-embeddings-v1.0.0.zip",
+  "downloaded_path": "resources/lang2ltl2-embeddings-v1.0.0.zip",
   "environment_variable": "RECONAV_LANG2LTL_EMBEDDINGS",
   "data_terms": "lang2ltl2_embeddings_DATA_TERMS.md"
 }

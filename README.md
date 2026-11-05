@@ -120,7 +120,7 @@ Reuse the commands above and select one or more methods with `--methods`, for ex
 
 ### External baselines and external baselines +ASG
 
-Follow the [baseline guide](docs/baselines.md) to prepare and run the selected method, with native or +ASG inputs. It includes one-task smoke, all/Hard44/task selection, and [Lang2LTL-2 setup](docs/baselines.md#lang2ltl-2-embeddings).
+Follow the [baseline guide](docs/baselines.md) to prepare and run the selected method, with native or +ASG inputs. Habitat navigation assets and the Lang2LTL-2 embedding cache are included under [`resources/`](resources/README.md). The guide includes one-task smoke, all/Hard44/task selection, and [Lang2LTL-2 setup](docs/baselines.md#lang2ltl-2-embeddings).
 
 ### Summarize new runs
 
@@ -172,6 +172,8 @@ reconav/
 configs/                    # Backbone profiles
 environments/               # External baseline environments
 docs/                       # Reproduction, baselines and benchmark construction
+benchmark/                  # Tasks, ASGs, physical geometry and evaluation annotations
+resources/                  # Habitat navigation and Lang2LTL-2 embedding bundles
 ```
 
 ## License

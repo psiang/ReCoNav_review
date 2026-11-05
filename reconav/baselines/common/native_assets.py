@@ -13,7 +13,7 @@ def prepare_native_assets(version, cache=None, scene_ids=None, scene_root=None):
     if not (source / 'manifest.json').is_file():
         raise FileNotFoundError(
             'Habitat navigation resources not found at ' + str(source)
-            + '. Download habitat-navigation-v1.0.0.tar.gz from the GitHub release and set '
+            + '. Extract resources/habitat-navigation-v1.0.0.tar.gz and set '
             + 'RECONAV_HABITAT_NAVIGATION_ROOT; see docs/baselines.md#habitat-navigation-resources.'
         )
     manifest = read(source / 'manifest.json')

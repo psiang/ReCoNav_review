@@ -8,9 +8,9 @@
   "robot_height_m": 1.5,
   "supported_starts": 178,
   "requires_official_scene_meshes": true,
-  "archive": "habitat-navigation-v1.0.0.tar.gz",
+  "archive": "resources/habitat-navigation-v1.0.0.tar.gz",
   "environment_variable": "RECONAV_HABITAT_NAVIGATION_ROOT",
-  "downloaded_directory": "external/resources/habitat-navigation",
+  "downloaded_directory": "resources/habitat-navigation",
   "files": 33,
   "scene_ids": [
     "00824-Dd4bFSTQ8gi",

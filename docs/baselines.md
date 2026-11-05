@@ -22,15 +22,14 @@ For native simulator methods and image-rendering methods (including NavGPT +ASG)
 
 ## Habitat navigation resources
 
-Simulator-based methods also use the optional `habitat-navigation-v1.0.0.tar.gz` bundle. It contains navmeshes, robot settings and exact-start records for Habitat-Sim 0.2.1, 0.2.4 and 0.3.3. Extract it once:
+Simulator-based methods use the included [Habitat navigation bundle](../resources/habitat-navigation-v1.0.0.tar.gz). It contains navmeshes, robot settings and exact-start records for Habitat-Sim 0.2.1, 0.2.4 and 0.3.3. From the repository root, extract it once:
 
 ```bash
-mkdir -p "$RECONAV_EXTERNAL_ROOT/resources"
-tar -xzf /path/to/habitat-navigation-v1.0.0.tar.gz -C "$RECONAV_EXTERNAL_ROOT/resources"
-export RECONAV_HABITAT_NAVIGATION_ROOT="$RECONAV_EXTERNAL_ROOT/resources/habitat-navigation"
+tar -xzf resources/habitat-navigation-v1.0.0.tar.gz -C resources
+export RECONAV_HABITAT_NAVIGATION_ROOT="$PWD/resources/habitat-navigation"
 ```
 
-Launchers select the matching version automatically. Set `RECONAV_HABITAT_NAVIGATION_ROOT` to use another location; its default is shown above. See the resource's [data terms](../reconav/baselines/resources/habitat_navigation_DATA_TERMS.md).
+Launchers select the matching version automatically. Set `RECONAV_HABITAT_NAVIGATION_ROOT` to use another location. See the resource's [data terms](../reconav/baselines/resources/habitat_navigation_DATA_TERMS.md).
 
 To rebuild from the official scenes, use a new cache and the matching Habitat environment. For example, rebuild one scene with Habitat-Sim 0.3.3:
 
@@ -232,15 +231,13 @@ Use a separate `--output` directory for each run. Set endpoints, credentials, as
 
 ## Lang2LTL-2 embeddings
 
-Lang2LTL-2 uses Qwen for expression extraction, local T5 for LTL translation, and `text-embedding-3-large` (3,072 dimensions) for REG/SPG grounding. The optional `lang2ltl2-embeddings-v1.0.0.zip` cache contains 5,280 original vectors. Prepare it when using this method:
+Lang2LTL-2 uses Qwen for expression extraction, local T5 for LTL translation, and `text-embedding-3-large` (3,072 dimensions) for REG/SPG grounding. The included [embedding cache](../resources/lang2ltl2-embeddings-v1.0.0.zip) contains 5,280 original vectors. From the repository root, set:
 
 ```bash
-export RECONAV_LANG2LTL_EMBEDDINGS="$RECONAV_EXTERNAL_ROOT/resources/lang2ltl2/embeddings.zip"
-mkdir -p "$(dirname "$RECONAV_LANG2LTL_EMBEDDINGS")"
-cp /path/to/lang2ltl2-embeddings-v1.0.0.zip "$RECONAV_LANG2LTL_EMBEDDINGS"
+export RECONAV_LANG2LTL_EMBEDDINGS="$PWD/resources/lang2ltl2-embeddings-v1.0.0.zip"
 ```
 
-The cache is reused automatically. Set `RECONAV_LANG2LTL_EMBEDDINGS` to store it elsewhere; the default is `$RECONAV_EXTERNAL_ROOT/resources/lang2ltl2/embeddings.zip`. Its contents and [data terms](../reconav/baselines/resources/lang2ltl2_embeddings_DATA_TERMS.md) are separate from the benchmark. New Qwen outputs can introduce uncached expressions; only those require the embedding API. LIMP requires only the Qwen service.
+The cache is reused automatically. Set `RECONAV_LANG2LTL_EMBEDDINGS` to use another location. Its contents and [data terms](../reconav/baselines/resources/lang2ltl2_embeddings_DATA_TERMS.md) are separate from the benchmark. New Qwen outputs can introduce uncached expressions; only those require the embedding API. LIMP requires only the Qwen service.
 
 After preparing the Lang2LTL-2 environment and checkpoint, run a real sample:
 
