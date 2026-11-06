@@ -1,0 +1,11 @@
+{
+  "source": "paper teaser",
+  "sha256": "02e6b5b4fe041c064a710bcf5532f75780e36c32a62cecc3ad4a33afd8f64c0e",
+  "geometry": "original SVG scene, outlines and route paths; hallway branch joined to its shared Dining leg",
+  "routeMeanings": {
+    "prefix": "Start to Dining",
+    "rug": "Via Kitchen: 2 rooms; preference violated",
+    "limit": "A/B via hallway: 3 rooms > 2; exceeds limit",
+    "selected": "Bed C: 2 rooms, away from rug"
+  }
+}

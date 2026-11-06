@@ -1,0 +1,18 @@
+{
+  "scene": "00843-DYehNKdT76V",
+  "rgbd": [
+    {
+      "rgb": "system/rgb-0.jpg",
+      "depth": "system/depth-0.jpg"
+    },
+    {
+      "rgb": "system/rgb-1.jpg",
+      "depth": "system/depth-1.jpg"
+    }
+  ],
+  "layers": {
+    "entities": "system/entities.svg",
+    "relations": "system/relations.svg",
+    "geometry": "system/geometry.svg"
+  }
+}

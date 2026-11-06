@@ -1,0 +1,24 @@
+{
+  "caseId": "q9000",
+  "sharedMission": "Visit a bin, then reach the washing machine, avoiding the office.",
+  "aerial": {
+    "video": "real/drone-q9000.mp4",
+    "poster": "real/drone-q9000-poster.jpg",
+    "status": "available",
+    "sourceFile": "IMG_E3709.MOV",
+    "sourceSha256": "74169c607a4f33258821dbe4b3ebb05a86eb865b8d26da63251d99b37ab92a5e",
+    "outputSha256": "3c24611d90b478513c880688fa684e534fdb3a4522790747182775e85bf590cc",
+    "duration": 46.203,
+    "processing": "Full duration, original timing, 1280x720 H.264/AAC; HLG HDR converted to BT.709 SDR; no cropping or content synthesis."
+  },
+  "wheeled": {
+    "video": "real/wheel-q9000.mp4",
+    "poster": "real/wheel-q9000-poster.jpg",
+    "status": "available",
+    "sourceFile": "IMG_5078.mov",
+    "sourceSha256": "87385f1d586297e8c4b00f4c67e904ab4ff01784d1957b0f7780bc1b273c3800",
+    "outputSha256": "aea70b0d095a3e6967eab580f1c8976771e3449aeef0d0652eca26f20e9ac895",
+    "duration": 60.743,
+    "processing": "Full duration, original timing, 1280x720 H.264/AAC; HLG HDR converted to BT.709 SDR; AAC audio track retained."
+  }
+}
