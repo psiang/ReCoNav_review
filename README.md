@@ -2,7 +2,7 @@
 
 Code for **ReCoNav: Reliable Constrained Long-Horizon Vision-and-Language Navigation via a Determination Engine**.
 
-The interactive [project page](site/index.html) provides the method overview and navigation demonstrations.
+The interactive [project page](https://anonymous.4open.science/w/ReCoNav/site/) provides the method overview and navigation demonstrations.
 
 - **Scene-grounded benchmark** provides 192 tasks across nine HM3DSem scenes to evaluate joint target and route satisfaction under scoped hard and soft constraints.
 - **Instruction contract** jointly represents visits, their order, and scoped hard and soft constraints for target and route selection.
