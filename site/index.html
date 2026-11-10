@@ -6,19 +6,16 @@
   <meta name="theme-color" content="#f8f8f4">
   <title>ReCoNav: Reliable Constrained Long-Horizon Vision-and-Language Navigation via a Determination Engine</title>
   
-<link rel="stylesheet" href="reconav.e6e2558fc4b56138.css"><script src="reconav.65abcb6eb5117537.js" defer></script>
-<script src="repository-links.js" defer></script>
+<link rel="stylesheet" href="reconav.e6e2558fc4b56138.css"><script src="reconav.d42e965f18891fe2.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#overview">Skip to visualizations</a>
-<header class="nav"><a class="wordmark" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 26V8h9v10h13V5"/><circle cx="5" cy="26" r="3"/><circle cx="27" cy="5" r="3"/></svg>ReCoNav</a><nav aria-label="Main navigation"><a href="#overview">Task &amp; Benchmark</a><a href="#explore">ReCoNav</a><a href="#results">Experiments</a><a href="#more-examples">Demos</a></nav><a class="nav-code" href="#resources" data-repository-link="code">Code ↗</a></header>
+<header class="nav"><a class="wordmark" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 26V8h9v10h13V5"/><circle cx="5" cy="26" r="3"/><circle cx="27" cy="5" r="3"/></svg>ReCoNav</a><nav aria-label="Main navigation"><a href="#overview">Task &amp; Benchmark</a><a href="#explore">ReCoNav</a><a href="#results">Experiments</a><a href="#more-examples">Demos</a></nav></header>
 <main>
 <section class="hero wrap">
-  <p class="eyebrow">ICLR 2027 submission</p>
+  <p class="eyebrow">Supplementary material</p>
   <h1>ReCoNav</h1>
   <p class="paper-title">Reliable Constrained Long-Horizon<br class="desktop-break"> Vision-and-Language Navigation<br class="desktop-break"> via a Determination Engine</p>
-  <p class="authors">Anonymous authors</p>
-  <div class="actions"><a class="button primary" href="#overview">Explore the project <span>↓</span></a><a class="button" href="assets/paper.pdf">Paper ↗</a><a class="text-link" href="#resources" data-repository-link="code">Code ↗</a></div>
 
 </section>
 
@@ -59,7 +56,7 @@
 
 </section>
 
-<section class="results-section wrap" id="results"><div class="section-heading"><div><h2>Experiments</h2></div></div><p class="section-copy">Full-instruction satisfaction (Full IS) requires a physically valid route satisfying required visits, orders, hard constraints, and all explicit preferences. We evaluate performance, examine global context and constraint reasoning, and ablate task modeling and the Determination Engine.</p><div class="result-tabs" role="group" aria-label="Evaluation population"><button type="button" class="active" data-result="main" aria-pressed="true">Main · 192 tasks</button><button type="button" data-result="hard" aria-pressed="false">Hard44 · 44 tasks</button></div><div class="results-layout"><div><p class="result-metric">Full-instruction satisfaction ↑</p><div id="bars"></div><p class="result-condition" id="result-condition"></p></div><aside class="result-takeaway"><span class="eyebrow">ReCoNav · Full IS</span><strong id="result-score">81.25%</strong><p id="result-reading">With the same ASG, backbone, and solver, Direct-Feedback reaches 44.27%.</p></aside></div><p class="result-footnote" id="result-footnote"></p><div class="backbone-section"><h3>Across four VLM backbones</h3><p>Across all four backbones, ReCoNav improves full-instruction satisfaction with fewer model tokens than Direct and Direct-Feedback.</p><div class="backbone-controls"><div class="result-tabs" role="group" aria-label="Backbone comparison metric"><button type="button" data-backbone-metric="fullIS" aria-pressed="true">Full IS</button><button type="button" data-backbone-metric="tokens" aria-pressed="false">Model tokens</button></div><span id="backbone-measure">Full-instruction satisfaction on 192 tasks ↑</span></div><div id="backbone-charts" class="backbone-charts"></div><p class="backbone-note">Shared ground-truth ASGs and route solver · Full IS uses all 192 tasks; mean tokens use completed runs.</p></div><div class="ablation-section"><h3>Ablations</h3><p class="ablation-condition">Full-instruction satisfaction (%) · All 192 tasks · Qwen3.8-27B</p><div class="ablation-cards" id="ablation-cards"></div></div></section>
+<section class="results-section wrap" id="results"><div class="section-heading"><div><h2>Experiments</h2></div></div><p class="section-copy">Full-instruction satisfaction (Full IS) requires a physically valid route satisfying required visits, orders, hard constraints, and all explicit preferences. We evaluate performance, examine global context and constraint reasoning, and ablate task modeling and the Determination Engine.</p><div class="result-tabs" role="group" aria-label="Evaluation population"><button type="button" class="active" data-result="main" aria-pressed="true">Main · 300 s</button><button type="button" data-result="hard" aria-pressed="false">Hard44 · 44 tasks</button></div><div class="results-layout"><div><p class="result-metric">Full-instruction satisfaction ↑</p><div id="bars"></div><p class="result-condition" id="result-condition"></p></div><aside class="result-takeaway"><span class="eyebrow">ReCoNav · Full IS</span><strong id="result-score">80.21%</strong><p id="result-reading">With the same ASG, backbone, and solver, Direct-Feedback reaches 42.71%.</p></aside></div><p class="result-footnote" id="result-footnote"></p><div class="backbone-section"><h3>Across four VLM backbones</h3><p>Across all four backbones, ReCoNav improves full-instruction satisfaction with fewer model tokens than Direct and Direct-Feedback.</p><div class="backbone-controls"><div class="result-tabs" role="group" aria-label="Backbone comparison metric"><button type="button" data-backbone-metric="fullIS" aria-pressed="true">Full IS</button><button type="button" data-backbone-metric="tokens" aria-pressed="false">Model tokens</button></div><span id="backbone-measure">Full-instruction satisfaction on completed runs ↑</span></div><div id="backbone-charts" class="backbone-charts"></div><p class="backbone-note">Shared ground-truth ASGs and route solver. Full IS and mean tokens use completed runs from 192 tasks. No wall-time cap.</p></div><div class="ablation-section"><h3>Ablations</h3><p class="ablation-condition">Full-instruction satisfaction (%) · Completed runs from 192 tasks · Qwen3.8-27B · No wall-time cap</p><div class="ablation-cards" id="ablation-cards"></div></div></section>
 
 <section class="more-examples" id="more-examples"><div class="wrap more-examples-heading"><div class="section-heading"><h2>Demos</h2><div class="example-links"><a href="#real">Real scene ↓</a><a href="#gallery">Benchmark examples ↓</a></div></div></div>
 <section class="real-section wrap" id="real">
@@ -105,15 +102,5 @@
   </div>
 </section>
 </section>
-
-
-
-<section class="resources wrap" id="resources"><div><h2>Resources</h2><div class="resource-links"><a href="assets/paper.pdf">Read the paper <span>↗</span></a><a href="#resources" data-repository-link="code">Code & reproduction <span>↗</span></a><a href="#resources" data-repository-link="benchmark">Benchmark <span>↗</span></a></div><p class="resource-note">The review repository includes the code, benchmark, and setup instructions.</p></div><div class="citation"><div class="citation-heading"><h3>Citation</h3><button id="copy-citation" type="button">Copy BibTeX</button></div><pre id="bibtex">@misc{reconav2026,
-  title={ReCoNav: Reliable Constrained Long-Horizon
-    Vision-and-Language Navigation via a
-    Determination Engine},
-  author={Anonymous},
-  year={2026}
-}</pre><p id="copy-status" role="status"></p></div></section>
-</main><footer class="wrap"><a class="wordmark" href="#">ReCoNav</a><p>Reliable constrained navigation</p><p>Scenes: HM3D / HM3DSem</p></footer>
+</main><footer class="wrap"><p>Scenes: HM3D / HM3DSem</p></footer>
 </body></html>

@@ -4,43 +4,43 @@
       "methods": [
         {
           "name": "NavGPT+ASG",
-          "fullIS": 24.48
+          "fullIS": 2.6
         },
         {
           "name": "Direct",
-          "fullIS": 27.08
+          "fullIS": 29.69
         },
         {
           "name": "Direct-Feedback",
-          "fullIS": 44.27
+          "fullIS": 42.71
         },
         {
           "name": "ReCoNav",
-          "fullIS": 81.25
+          "fullIS": 80.21
         }
       ],
-      "condition": "192 tasks \u00b7 Ground-truth ASG \u00b7 Qwen3.8-27B-FP8",
-      "reading": "With the same ASG, VLM backbone, and route solver, Direct-Feedback reaches 44.27%.",
-      "footnote": "Full IS uses all 192 tasks for ASG methods. Budget failures and runtime exceptions score zero; token and time means use completed runs."
+      "condition": "192 tasks · 300 s per task · Ground-truth ASG · Qwen3.8-27B-FP8",
+      "reading": "With the same ASG, VLM backbone, and route solver, Direct-Feedback reaches 42.71%.",
+      "footnote": "Full IS uses all 192 ASG tasks. Timeouts, exhausted budgets, and runtime failures score zero."
     },
     "hard": {
       "methods": [
         {
           "name": "NavGPT+ASG",
-          "fullIS": 38.64
-        },
-        {
-          "name": "Direct-Feedback",
           "fullIS": 29.55
         },
         {
+          "name": "Direct-Feedback",
+          "fullIS": 38.64
+        },
+        {
           "name": "ReCoNav",
-          "fullIS": 84.09
+          "fullIS": 81.82
         }
       ],
-      "condition": "44 hard-constraint-resolving tasks \u00b7 Start poses supported by all methods",
-      "reading": "With the same ASG, contract representation, route solver, and Qwen VLM backbone, Direct-Feedback reaches 29.55%.",
-      "footnote": "Hard44 comprises 44 of the 51 tasks where hard constraints determine the target. All methods are evaluated on the same 44 tasks; failures score zero."
+      "condition": "44 hard-constraint-resolving tasks · No wall-time cap · Qwen3.8-27B-FP8",
+      "reading": "With the same ASG, contract representation, route solver, and Qwen VLM backbone, Direct-Feedback reaches 38.64%.",
+      "footnote": "Hard44 comprises 44 of the 51 tasks where hard constraints determine the target, with start poses supported by all methods. Full IS uses all 44 tasks. Failures score zero. Native resource bounds apply."
     }
   },
   "backbones": [
@@ -58,7 +58,7 @@
     {
       "name": "Gemini 3.1 Pro Preview",
       "feedback": {
-        "fullIS": 58.33,
+        "fullIS": 58.64,
         "tokens": 149.21
       },
       "reconav": {
@@ -69,23 +69,23 @@
     {
       "name": "Qwen3.8-27B",
       "feedback": {
-        "fullIS": 44.27,
-        "tokens": 113.15
+        "fullIS": 45.79,
+        "tokens": 109.71
       },
       "reconav": {
-        "fullIS": 81.25,
-        "tokens": 7.12
+        "fullIS": 82.11,
+        "tokens": 7.03
       }
     },
     {
       "name": "Gemma4-31B",
       "feedback": {
-        "fullIS": 49.48,
-        "tokens": 110.02
+        "fullIS": 50.0,
+        "tokens": 109.94
       },
       "reconav": {
-        "fullIS": 95.83,
-        "tokens": 6.67
+        "fullIS": 96.34,
+        "tokens": 6.87
       }
     }
   ],
@@ -96,15 +96,15 @@
       "methods": [
         {
           "name": "Direct",
-          "fullIS": 27.08
+          "fullIS": 30.0
         },
         {
           "name": "Direct-ID-Sequence",
-          "fullIS": 42.71
+          "fullIS": 42.63
         },
         {
           "name": "ReCoNav",
-          "fullIS": 81.25
+          "fullIS": 82.11
         }
       ],
       "description": "ReCoNav uses the contract for derivation, verification, and repair, outperforming Direct and Direct-ID-Sequence across all four backbones."
@@ -115,11 +115,11 @@
       "methods": [
         {
           "name": "Forced-Early",
-          "fullIS": 56.25
+          "fullIS": 56.54
         },
         {
           "name": "ReCoNav",
-          "fullIS": 81.25
+          "fullIS": 82.11
         }
       ],
       "description": "Forced-Early selects targets from semantic and spatial matches before the solver checks route constraints. ReCoNav uses complete-route feasibility and preference costs to guide target selection."
@@ -130,30 +130,15 @@
       "methods": [
         {
           "name": "No Verify/Repair",
-          "fullIS": 73.44
+          "fullIS": 73.82
         },
         {
           "name": "ReCoNav",
-          "fullIS": 81.25
+          "fullIS": 82.11
         }
       ],
       "description": "Restoring the additional verification and repair stage improves Full IS across all four backbones.",
-      "note": "Qwen tokens: 5.69k \u2192 7.12k per completed run."
+      "note": "Qwen tokens: 5.68k → 7.03k per completed run."
     }
-  ],
-  "source": {
-    "main.tex": "09b6585c9d4f3266e6607225c756a915b77611fddf937140810747ff40632b45",
-    "sections/introduction.tex": "e39751bf4848c5a1cedee51851cb6f301c58a9efebbf19478025e4e6886f825c",
-    "sections/method.tex": "1ad1dc2ca77589ee27f8fe6cb75b82d0c14ea2b5a722bd7ddebf6014772e8b52",
-    "sections/experiments.tex": "ad7c39ba4d7f99cf0f803906a1c7ac4a12437ba2a57157f77780ce3ce5b2df94",
-    "sections/analysis.tex": "b10810bccdd211782151e1255a2692c353fd904c3e0bd579cde4a81d7ced4bf0",
-    "tables/main_results.tex": "6a182f7e7cdf6072b4952fc84231fa0c1cd9d05b244794f5425c58e5f381f284",
-    "tables/hard_candidates.tex": "da369e85d6295ed66c53dd460ebe7d290c540ff14abeae5ba9cb3a66f17ed0ea",
-    "tables/ablation.tex": "2f824eaab3fd8fd8385c0d8a77c1a697932bf54c2b754a1a2ff1dfc13b6a2a5c",
-    "tables/benchmark_composition.tex": "0de168f4e39733bf1368a65b8d0a315025893e413c02044855222b742a437ee9",
-    "sections/appendix.tex": "4d9605b56660f41fd927dcd7784ff9e9c7bf605d00227bbec245c8fd95827e6b",
-    "sections/appendix_method.tex": "085b1d8b2c20bd5b90d1f623bd35d228e53b78c7e39b51295bf62170a8ea282e",
-    "tables/core_rules.tex": "9eae98dde83583ac30e949f7ee07faf256a3be4daea487ca4e9ef102038733f4",
-    "figures/real_world_demo_figure.tex": "7267e5b4794169e4e11016c144f5857cba43a9ac745a9543e1b5cc7236e9493e"
-  }
+  ]
 }
