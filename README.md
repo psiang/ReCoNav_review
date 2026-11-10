@@ -8,18 +8,6 @@ The interactive [project page](site/index.html) provides the method overview and
 - **Instruction contract** jointly represents visits, their order, and scoped hard and soft constraints for target and route selection.
 - **Determination Engine** uses scene and task rules to propagate constraints across instruction interpretation, scene grounding, and complete-route planning. It derives and verifies judgments and supplies evidence for VLM repair.
 
-## Citation
-
-If you use ReCoNav or its benchmark, please cite:
-
-```bibtex
-@misc{reconav2026,
-  title  = {{ReCoNav}: Reliable Constrained Long-Horizon Vision-and-Language Navigation via a Determination Engine},
-  author = {Anonymous},
-  year   = {2026}
-}
-```
-
 ## Benchmark
 
 The benchmark contains **192 tasks in nine HM3DSem scenes**, with ground-truth ASGs, physical navigation geometry, annotations and evaluation splits. Hard constraints determine the target in 51 tasks, preferences in 38, and local qualifiers or direct references in the remaining 103. **Hard44** contains the 44 hard-constraint-resolving tasks whose starts are supported by every evaluated method. Native simulator methods support 178 starts; ASG methods support all 192. Tasks are stored at `benchmark/tasks/hm3dsem/<scene>/<task>.json`; scene assets are at `benchmark/scenes/hm3dsem/<scene>/`.
