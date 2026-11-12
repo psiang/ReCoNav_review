@@ -1,6 +1,6 @@
 # Constructing tasks from ASGs
 
-Start with the included benchmark and the core environment from the [README](../README.md). The scene inputs are `scenes/hm3dsem/<scene>/asg/{entity,geometry,topology}.json` and the same scene's `navigation/graph.json.gz`.
+Start with the benchmark and the core environment from the [README](../README.md). The scene inputs are `scenes/hm3dsem/<scene>/asg/{entity,geometry,topology}.json` and the same scene's `navigation/graph.json.gz`.
 
 ## Prepare a working copy
 
@@ -16,7 +16,7 @@ cp "$RECONAV_SOURCE_DATA_ROOT/benchmark/tasks/hm3dsem/00824-Dd4bFSTQ8gi/00824_T1
   "$RECONAV_TASK_FILE"
 ```
 
-The copied task is a format template. Give it a unique `task_id` matching its filename, then edit its instruction and symbolic requirements.
+The copied task is a format template. Give it a unique `task_id` matching its filename, then edit its symbolic requirements. Write the instruction yourself or generate and review it with the tools below.
 
 ## Define the task
 
@@ -58,6 +58,32 @@ python -m reconav.benchmark.construction --task "$RECONAV_TASK_FILE"
 Use `--task file1.json file2.json` for a batch. Set `--solver-seconds` to change the per-task search budget (default 90 seconds). A successful task prints `"status": "passed"`.
 
 Inspect each instruction against its symbolic requirements and candidate checks. For constraints intended to affect behavior, check a satisfying route and a route that violates the relevant clause while keeping the other requirements satisfied.
+
+## Generate and review instructions
+
+The benchmark was built from symbolic tasks, verbalized with Gemini or GPT, and separately reviewed with GPT against the intended requirements. Review checks target qualifiers, visit order, hard and soft constraints, counts, scope boundaries, and ambiguous wording. Flagged instructions were corrected and reviewed again.
+
+Install the model clients with `pip install -e '.[models]'`. Set `GEMINI_API_KEY` for Gemini generation and `OPENAI_API_KEY` for GPT generation or review. Generation uses Gemini-3.7-Flash or GPT-5.6-Sol; review uses GPT-5.6-Sol with high reasoning effort.
+
+Generate an instruction from the task's `symbolic_ir`:
+
+```bash
+python -m reconav.benchmark.language_tools generate \
+  --task "$RECONAV_TASK_FILE" --provider gemini \
+  --output-dir outputs/instruction_generation
+```
+
+Use `--provider openai` for GPT. Generated task copies are saved under `outputs/instruction_generation/tasks/hm3dsem/`. Review them with:
+
+```bash
+python -m reconav.benchmark.language_tools audit \
+  --tasks-root outputs/instruction_generation/tasks/hm3dsem \
+  --output-dir outputs/instruction_review
+```
+
+Both commands accept `--task file1.json file2.json` or `--tasks-root DIR`, with optional `--task-ids ID1 ID2`. Use `--batch-size` and `--workers` to control batching and parallel requests. Add `--prepare-only` to save the exact prompt inputs without calling an API.
+
+Each run saves requests, model-call records and `report.json` in a new output directory. Review returns exit code 1 when it flags an instruction. Inspect the reported issues, revise the wording and review again using a new output directory. Copy accepted task files into your collection. Keep language-generation and review records in your working directory.
 
 ## Select and run tasks
 
