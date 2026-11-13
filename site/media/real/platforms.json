@@ -2,23 +2,21 @@
   "caseId": "q9000",
   "sharedMission": "Visit a bin, then reach the washing machine, avoiding the office.",
   "aerial": {
-    "video": "real/drone-q9000.mp4",
-    "poster": "real/drone-q9000-poster.jpg",
+    "video": "real/drone-q9000-anonymized.mp4",
+    "poster": "real/drone-q9000-anonymized-poster.jpg",
     "status": "available",
-    "sourceFile": "IMG_E3709.MOV",
-    "sourceSha256": "74169c607a4f33258821dbe4b3ebb05a86eb865b8d26da63251d99b37ab92a5e",
-    "outputSha256": "3c24611d90b478513c880688fa684e534fdb3a4522790747182775e85bf590cc",
-    "duration": 46.203,
-    "processing": "Full duration, original timing, 1280x720 H.264/AAC; HLG HDR converted to BT.709 SDR; no cropping or content synthesis."
+    "sourceSha256": "e6826cb1c1c30b536e53b8e6b24a074abec73be85076d796bc0a56759b12d69e",
+    "outputSha256": "3f4b13d82fe65f0efb8fda12c0195d4261c26077736e1366c1ca81ac286ad8b4",
+    "duration": 46.207,
+    "processing": "User-anonymized recording; full duration and original timing; 1280x720 H.264/AAC; HLG HDR converted to BT.709 SDR; export metadata removed."
   },
   "wheeled": {
-    "video": "real/wheel-q9000.mp4",
-    "poster": "real/wheel-q9000-poster.jpg",
+    "video": "real/wheel-q9000-anonymized.mp4",
+    "poster": "real/wheel-q9000-anonymized-poster.jpg",
     "status": "available",
-    "sourceFile": "IMG_5078.mov",
-    "sourceSha256": "87385f1d586297e8c4b00f4c67e904ab4ff01784d1957b0f7780bc1b273c3800",
-    "outputSha256": "aea70b0d095a3e6967eab580f1c8976771e3449aeef0d0652eca26f20e9ac895",
-    "duration": 60.743,
-    "processing": "Full duration, original timing, 1280x720 H.264/AAC; HLG HDR converted to BT.709 SDR; AAC audio track retained."
+    "sourceSha256": "f7c6e0b1a2d1d0da7ae5970faf3794b60fdc409c26348e765543077a188aaf9e",
+    "outputSha256": "7d8888098247a7f1a99bd51fc5857628771cdbacaca77d95ff649113c42658d8",
+    "duration": 60.742,
+    "processing": "User-anonymized recording; full duration and original timing; 1280x720 H.264/AAC; HLG HDR converted to BT.709 SDR; export metadata removed."
   }
 }
